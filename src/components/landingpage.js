@@ -19,6 +19,22 @@ class LandingPage extends Component {
                             <hr/>
 
                             <p>HTML | CSS | Javascript | React | NodeJS | Express | WordPress</p>
+                            <div className="social-links">
+                                {/* LinkedIn */}
+                                <a href="http://google.com"  rel="noopener noreferrer"  target="_blank">
+                                    <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                </a>
+
+                                {/* GitHub */}
+                                <a href="http://google.com"  rel="noopener noreferrer"  target="_blank">
+                                    <i className="fa fa-github-square" aria-hidden="true" />
+                                </a>
+
+                                {/* Wordpress */}
+                                <a href="http://google.com"  rel="noopener noreferrer"  target="_blank">
+                                    <i className="fa fa-wordpress" aria-hidden="true" />
+                                </a>
+                            </div>
                         </div>
                     </Cell>
                 </Grid>
