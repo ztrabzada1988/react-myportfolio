@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
 class Projects extends Component {
     constructor(props) {
@@ -10,7 +10,9 @@ class Projects extends Component {
     toggleCategorries() {
         if(this.state.activeTab === 0) {
             return (
-                <div><h1>This is React</h1></div>
+                <Card shadow={5} style={{minWidth: '45'}}>
+
+                </Card>
             )
         } else if(this.state.activeTab === 1) {
             return (
@@ -40,7 +42,11 @@ class Projects extends Component {
                 </Tabs>
 
                 <section className="projects-grid">
-                    {this.toggleCategorries()}
+                    <Grid className="projects-grid">
+                        <Cell>
+                            <div className="content">{this.toggleCategorries()}</div>
+                        </Cell>
+                    </Grid>
                 </section>
             </div>
         )
