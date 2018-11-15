@@ -1,13 +1,9 @@
-.header-color {
-  background: #283c86;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+
+.mdl-layout__header-row {
+  background-color: rgb(33, 43, 56);
 }
 
-.landing-grid {
-  background: #283c86;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+.landing-grid { 
   text-align: center;
   position: fixed;
   top: 0;
@@ -22,7 +18,6 @@
 }
 
 .banner-text {
-  background-color: black;
   opacity: .8;
   width: 75%;
   margin: auto;
@@ -32,7 +27,7 @@
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
-  color: white;
+  color: rgb(88, 235, 149);
 }
 
 .banner-text hr {
@@ -51,11 +46,11 @@
   display: flex;
   justify-content: space-between;
   width: 50%;
-  margin: auto
+  margin: auto;
 }
 
 .social-links i {
-  color: white;
+  color: rgb(88, 235, 149);
   font-size: 5em;
   padding: 8px;
 }

@@ -7,6 +7,7 @@ import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 import { BrowserRouter } from 'react-router-dom';
 
+//add BrowerRouter for all routing/links to pages
 ReactDOM.render(
     <BrowserRouter>
         <App />

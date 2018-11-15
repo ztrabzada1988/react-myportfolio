@@ -11,20 +11,26 @@ class Projects extends Component {
         if(this.state.activeTab === 0) {
             return (
                 <Card shadow={5} style={{minWidth: '45'}}>
-
+                    <h4>Hello World, I am project 1</h4>
                 </Card>
             )
         } else if(this.state.activeTab === 1) {
             return (
-                <div><h1>This is Javascript</h1></div>
+                <Card shadow={5} style={{minWidth: '45'}}>
+                    <h4>Javascript</h4>
+                </Card>
             )
         } else if(this.state.activeTab === 2) {
             return (
-                <div><h1>This is MongoDB</h1></div>
+                <Card shadow={5} style={{minWidth: '45'}}>
+                    <h4>React JS Projects</h4>
+                </Card>
             )
         } else if(this.state.activeTab === 3) {
             return (
-                <div><h1>This is JQuery</h1></div>
+                <Card shadow={5} style={{minWidth: '45'}}>
+                    <h4>React JS Projects</h4>
+                </Card>
             )
         }
     }
@@ -36,9 +42,9 @@ class Projects extends Component {
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab>React</Tab>
                     <Tab>Javascript</Tab>
-                    <Tab>MongoDB</Tab>
-                    <Tab>JQuery</Tab>
-                    <Tab>Express</Tab>
+                    <Tab>Ethereum</Tab>
+                    <Tab>Games</Tab>
+                    <Tab>Others</Tab>
                 </Tabs>
 
                 <section className="projects-grid">

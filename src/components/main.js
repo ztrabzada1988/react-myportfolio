@@ -7,15 +7,18 @@ import Contact from './contact';
 import Projects from './projects';
 import Resume from './resume';
 
-
-const Main = () => (
-    <Switch>
-        <Route exact path="/" component={LandingPage} />
-        <Route exact path="/aboutme" component={AboutMe} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/resume" component={Resume} />
-    </Switch>
-)
+//Switch renders rounts exclusively meaning it looks for the EXACT route name e.g.
+const Main = () => {
+    
+    return (
+        <Switch>
+            <Route exact path="/" component={LandingPage} />
+            <Route exact path="/aboutme" component={AboutMe} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/resume" component={Resume} />
+        </Switch>
+    );
+}
 
 export default Main;
