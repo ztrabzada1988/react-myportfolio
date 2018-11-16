@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText } from 'react-mdl';
 
 class Projects extends Component {
     constructor(props) {
@@ -10,9 +10,67 @@ class Projects extends Component {
     toggleCategorries() {
         if(this.state.activeTab === 0) {
             return (
-                <Card shadow={5} style={{minWidth: '45'}}>
-                    <h4>Hello World, I am project 1</h4>
-                </Card>
+                <div style={{display: 'flex', marginTop: '20px'}}>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'rgb(88, 235, 149)', height: '200px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>React Project #1</CardTitle>
+                        <CardText>
+                            Hello I am project one. I do cool things
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>GitHub</Button>
+                            <Button colored>CodePen</Button>
+                            <Button colored>LiveDemo</Button>
+                        </CardActions>
+                        <CardMenu style={{color: 'rgb(88, 235, 149)'}}>
+                            <IconButton name="share"/>
+                        </CardMenu>
+                    </Card>
+
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'rgb(88, 235, 149)', height: '200px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>React Project #1</CardTitle>
+                        <CardText>
+                            Hello I am project one. I do cool things
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>GitHub</Button>
+                            <Button colored>CodePen</Button>
+                            <Button colored>LiveDemo</Button>
+                        </CardActions>
+                        <CardMenu style={{color: 'rgb(88, 235, 149)'}}>
+                            <IconButton name="share"/>
+                        </CardMenu>
+                    </Card>
+
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'rgb(88, 235, 149)', height: '200px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>React Project #1</CardTitle>
+                        <CardText>
+                            Hello I am project one. I do cool things
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>GitHub</Button>
+                            <Button colored>CodePen</Button>
+                            <Button colored>LiveDemo</Button>
+                        </CardActions>
+                        <CardMenu style={{color: 'rgb(88, 235, 149)'}}>
+                            <IconButton name="share"/>
+                        </CardMenu>
+                    </Card>
+
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'rgb(88, 235, 149)', height: '200px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>React Project #1</CardTitle>
+                        <CardText>
+                            Hello I am project one. I do cool things
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>GitHub</Button>
+                            <Button colored>CodePen</Button>
+                            <Button colored>LiveDemo</Button>
+                        </CardActions>
+                        <CardMenu style={{color: 'rgb(88, 235, 149)'}}>
+                            <IconButton name="share"/>
+                        </CardMenu>
+                    </Card>
+                </div>
             )
         } else if(this.state.activeTab === 1) {
             return (
@@ -35,21 +93,19 @@ class Projects extends Component {
         }
     }
 
-    
     render() {
         return (
             <div className="catagory-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                    <Tab>React</Tab>
-                    <Tab>Javascript</Tab>
-                    <Tab>Ethereum</Tab>
-                    <Tab>Games</Tab>
-                    <Tab>Others</Tab>
+                    <Tab style={{color: '#2bd49e'}}>Javascript</Tab>
+                    <Tab style={{color: '#2bd49e'}}>React</Tab>
+                    <Tab style={{color: '#2bd49e'}}>Ethereum</Tab>
+                    <Tab style={{color: '#2bd49e'}}>Others</Tab>
                 </Tabs>
 
                 <section className="projects-grid">
                     <Grid className="projects-grid">
-                        <Cell>
+                        <Cell col={12}>
                             <div className="content">{this.toggleCategorries()}</div>
                         </Cell>
                     </Grid>

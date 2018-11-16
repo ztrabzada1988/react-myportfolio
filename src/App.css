@@ -1,6 +1,6 @@
 
 .mdl-layout__header-row {
-  background-color: rgb(33, 43, 56);
+  background-color: #222222;
 }
 
 .landing-grid { 
@@ -10,6 +10,11 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.catagory-tabs {
+  color: #2bd49e;
+  font-weight: bold;
 }
 
 .avatar-img {
@@ -26,8 +31,8 @@
 
 .banner-text h1 {
   font-size: 50px;
-  font-weight: bold;
-  color: rgb(88, 235, 149);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2bd49e;
   margin-top: 35px;
 }
 
@@ -51,7 +56,7 @@
 }
 
 .social-links i {
-  color: rgb(88, 235, 149);
+  color: #2bd49e;
   font-size: 5em;
   padding: 8px;
 }

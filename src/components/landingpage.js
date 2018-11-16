@@ -19,7 +19,7 @@ class LandingPage extends Component {
 
                             <hr/>
 
-                            <p>HTML | CSS | Javascript | React | NodeJS | Express | WordPress</p>
+                            <p>HTML | CSS | Javascript | React | Redux | NodeJS | Express | WordPress | Solidity</p>
                             <div className="social-links">
                                 {/* LinkedIn */}
                                 <a href="https://linkedin.com/in/zubair-trabzada"  rel="noopener noreferrer"  target="_blank">
@@ -43,8 +43,6 @@ class LandingPage extends Component {
                             </div>
                         </div>
                     </Cell>
-
-                    
                 </Grid>
             </div>
         )
