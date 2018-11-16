@@ -13,8 +13,8 @@
 }
 
 .avatar-img {
-  height: 250px;
-  padding-top: 5em;
+  height: 210px;
+  padding-top: 11em;
 }
 
 .banner-text {
@@ -25,14 +25,15 @@
 }
 
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 50px;
   font-weight: bold;
   color: rgb(88, 235, 149);
+  margin-top: 35px;
 }
 
 .banner-text hr {
   border-top: 5px dotted white;
-  widows: 50%;
+  width: 90%;
   margin: auto;
 }
 

@@ -8,35 +8,43 @@ class LandingPage extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 
-                            src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png"
+                            //src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png"
+                            src={require('../img/code-cutout.png')}
                             alt="avatar"
                             className="avatar-img"
                         />
 
                         <div className="banner-text">   
-                            <h1>Fullstack Web Developer</h1>
+                            <h1>Web Developer & Blockchain Enthusiast</h1>
 
                             <hr/>
 
                             <p>HTML | CSS | Javascript | React | NodeJS | Express | WordPress</p>
                             <div className="social-links">
                                 {/* LinkedIn */}
-                                <a href="http://google.com"  rel="noopener noreferrer"  target="_blank">
+                                <a href="https://linkedin.com/in/zubair-trabzada"  rel="noopener noreferrer"  target="_blank">
                                     <i className="fa fa-linkedin-square" aria-hidden="true" />
                                 </a>
 
                                 {/* GitHub */}
-                                <a href="http://google.com"  rel="noopener noreferrer"  target="_blank">
+                                <a href="https://github.com/ztrabzada1988?tab=overview&from=2017-12-01&to=2017-12-31"  rel="noopener noreferrer"  target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true" />
                                 </a>
 
-                                {/* Wordpress */}
-                                <a href="http://google.com"  rel="noopener noreferrer"  target="_blank">
-                                    <i className="fa fa-wordpress" aria-hidden="true" />
+                                {/* Medium */}
+                                <a href="https://medium.com/@cryptonia"  rel="noopener noreferrer"  target="_blank">
+                                    <i className="fa fa-medium" aria-hidden="true" />
+                                </a>
+
+                                {/* Medium */}
+                                <a href="mailto:zubair.trabzada@gmail.com"  rel="noopener noreferrer"  target="_blank">
+                                    <i className="fa fa-envelope" aria-hidden="true" />
                                 </a>
                             </div>
                         </div>
                     </Cell>
+
+                    
                 </Grid>
             </div>
         )
