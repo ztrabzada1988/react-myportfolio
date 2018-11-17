@@ -60,3 +60,50 @@
   font-size: 5em;
   padding: 8px;
 }
+
+.projects-grid {
+  display: flex;
+  margin-top: 20px;
+}
+
+.contact-body {
+  margin: auto;
+  background: #222222;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+  color: rgb(230, 230, 230);
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted #2bd49e;
+  width: 70%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+  color: #2bd49e;
+  vertical-align: -15px;
+}

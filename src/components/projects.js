@@ -10,7 +10,8 @@ class Projects extends Component {
     toggleCategorries() {
         if(this.state.activeTab === 0) {
             return (
-                <div style={{display: 'flex', marginTop: '20px'}}>
+                <div className="projects-grid">
+                    {/* Project 1 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: 'rgb(88, 235, 149)', height: '200px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>React Project #1</CardTitle>
                         <CardText>
@@ -26,6 +27,7 @@ class Projects extends Component {
                         </CardMenu>
                     </Card>
 
+                    {/* Project 2 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: 'rgb(88, 235, 149)', height: '200px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>React Project #1</CardTitle>
                         <CardText>
@@ -41,6 +43,7 @@ class Projects extends Component {
                         </CardMenu>
                     </Card>
 
+                    {/* Project 3 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: 'rgb(88, 235, 149)', height: '200px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>React Project #1</CardTitle>
                         <CardText>
@@ -56,6 +59,7 @@ class Projects extends Component {
                         </CardMenu>
                     </Card>
 
+                    {/* Project 4 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: 'rgb(88, 235, 149)', height: '200px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>React Project #1</CardTitle>
                         <CardText>
@@ -103,13 +107,11 @@ class Projects extends Component {
                     <Tab style={{color: '#2bd49e'}}>Others</Tab>
                 </Tabs>
 
-                <section className="projects-grid">
-                    <Grid className="projects-grid">
+                    <Grid>
                         <Cell col={12}>
                             <div className="content">{this.toggleCategorries()}</div>
                         </Cell>
                     </Grid>
-                </section>
             </div>
         )
     }

@@ -9,10 +9,10 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-            <Header title="Hello World!" scroll>
+            <Header title="Hi I'm Zubair" scroll>
                 <Navigation className="nav-links">
                     
-                    <Link to="/" style={{fontSize: '15px', fontWeight: 'bold', display: 'flex'}}>Zubair Trabzada</Link>
+                    <Link to="/" style={{fontSize: '15px', fontWeight: 'bold', display: 'flex'}}>Home</Link>
                     <Link to="/resume">Resume</Link>
                     <Link to="/aboutme">About Me</Link>
                     <Link to="/projects">Projects</Link>
