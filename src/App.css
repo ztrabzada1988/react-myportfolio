@@ -66,6 +66,15 @@
   margin-top: 20px;
 }
 
+/* Resume Page CSS */
+.resume-right-col {
+  background: green;
+  color: white;
+  padding: 2em;
+}
+
+/* Contacts Page CSS */
+
 .contact-body {
   margin: auto;
   background: #222222;
@@ -107,3 +116,4 @@
   color: #2bd49e;
   vertical-align: -15px;
 }
+
