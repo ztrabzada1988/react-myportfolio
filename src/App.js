@@ -9,17 +9,24 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-            <Header title="Hi I'm Zubair" scroll>
+            <Header title={<Link to="/" style={{ textDecoration: 'none', fontSize: '15px', fontWeight: 'bold', color: 'white'}}>Zubair Trabzada</Link>} scroll>
                 <Navigation className="nav-links">
-                    
-                    <Link to="/" style={{fontSize: '15px', fontWeight: 'bold', display: 'flex'}}>Home</Link>
                     <Link to="/resume">Resume</Link>
                     <Link to="/aboutme">About Me</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/contact">Contact</Link>
                 </Navigation>
             </Header>
-            
+
+            <Drawer title={<Link to="/" style={{ textDecoration: 'none', fontSize: '15px', fontWeight: 'bold', color: 'grey'}}>Zubair Trabzada</Link>}>
+                <Navigation>
+                    <Link to="/resume">Resume</Link>
+                    <Link to="/aboutme">About Me</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/contact">Contact</Link>
+                  </Navigation>
+              </Drawer>
+
             <Content>
                 <div className="page-content" />
                 <Main />
