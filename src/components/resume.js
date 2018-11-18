@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
-import Education from './education';
-import Experience from './experience';
-import Skills from './skills';
+import Education from './resume/education';
+import Experience from './resume/experience';
+import Skills from './resume/skills';
 
 class Resume extends Component {
     render() {
         return (
             <div>
-                <Grid>
-                    <Cell col={4}>
+                <Grid style={{marginTop: '70px'}}>
+                    <Cell className="resume-left-col" col={4}>
                         <div style={{textAlign: 'center'}}>
                             <img src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" 
                             alt="avatar" 
