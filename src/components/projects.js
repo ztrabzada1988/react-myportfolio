@@ -12,20 +12,7 @@ class Projects extends Component {
             return (
                 <div className="projects-grid">
                     {/* Project 1 */}
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: 'rgb(88, 235, 149)', height: '200px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>React Project #1</CardTitle>
-                        <CardText>
-                            Hello I am project one. I do cool things
-                        </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>LiveDemo</Button>
-                        </CardActions>
-                        <CardMenu style={{color: 'rgb(88, 235, 149)'}}>
-                            <IconButton name="share"/>
-                        </CardMenu>
-                    </Card>
+                    
 
                     {/* Project 2 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -78,10 +65,32 @@ class Projects extends Component {
             )
         } else if(this.state.activeTab === 1) {
             return (
-                <Card shadow={5} style={{minWidth: '45'}}>
-                    <h4>Javascript</h4>
-                </Card>
-            )
+                <div className="projects-grid">
+                    {/* YouTube API App */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'rgb(88, 235, 149)', height: '200px', backgroundImage: 'url("https://i.pinimg.com/originals/00/6f/fd/006ffd872df01f4e422965806dbc6a5d.png")', backgroundSize: 'cover'}}>YouTube API Project</CardTitle>
+                        <CardText>
+                            Youtube Api Project built with react and youtube api
+                        </CardText>
+                        <CardActions border>
+                            <Button colored><a href="https://github.com/ztrabzada1988/youtube-app" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
+                            <Button colored><a href="https://ztrabzada1988.github.io/youtube-app" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
+                        </CardActions>
+                    </Card>
+
+                    {/* React Reminder App */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'rgb(88, 235, 149)', height: '200px', backgroundImage: 'url("https://i.pinimg.com/originals/00/6f/fd/006ffd872df01f4e422965806dbc6a5d.png")', backgroundSize: 'cover'}}>YouTube API Project</CardTitle>
+                        <CardText>
+                            Reminder app for tasks with deadlines and notices
+                        </CardText>
+                        <CardActions border>
+                            <Button colored><a href="https://github.com/ztrabzada1988/reminderApp" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
+                            <Button colored><a href="https://ztrabzada1988.github.io/reminderApp" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
+                        </CardActions>
+                    </Card>
+                </div>
+            );
         } else if(this.state.activeTab === 2) {
             return (
                 <Card shadow={5} style={{minWidth: '45'}}>
