@@ -64,7 +64,9 @@
 .projects-grid {
   display: flex;
   margin-top: 20px;
+  border-radius: 20px;
 }
+
 
 /* Resume Page CSS */
 .resume-right-col {
