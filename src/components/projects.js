@@ -53,7 +53,7 @@ class Projects extends Component {
 
                         {/* Photo Finder */}
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto', borderRadius: '10px'}}>
-                            <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://cdn.pixabay.com/photo/2016/10/21/13/01/pixabay-1757980__480.jpg")', backgroundSize: 'cover'}}></CardTitle>
+                            <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://www.imore.com/sites/imore.com/files/styles/xlarge/public/field/image/2017/04/slow-shutter-speed-hero-01.jpg?itok=HiXaCFkW")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
                                 <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Image Finder App</h6>
                                 Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
