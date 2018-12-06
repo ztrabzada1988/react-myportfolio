@@ -39,17 +39,15 @@ class Resume extends Component {
                         <h2>Education</h2>
 
                         <Education 
-                            startYear={2002}
-                            endYear={2006}
-                            schoolName="My University"
-                            schoolDescription="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+                            schoolName="University at Buffalo"
+                            major="B.S. in Civil Engineering"
+                            schoolDescription="Completed studies in advance mathematics, structural engineering, statistics, problem solving, civil engineering design subjects, technical writing, and etc."
                         />
 
                         <Education 
-                            startYear={2002}
-                            endYear={2006}
-                            schoolName="My University"
-                            schoolDescription="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+                            schoolName="Thinkful Coding Bootcamp"
+                            major="Full Stack Web Development"
+                            schoolDescription="Completed coding bootcamp in full stack web development with HTML, CSS, JavaScript, React.js, Redux, Node.js, jQuery, Webpack, Express, Bootstrap, Heroku, and GitHub"
                         />
                         <hr style={{borderTop: '3px sold #e22947'}} />
 
@@ -58,8 +56,13 @@ class Resume extends Component {
                         <Experience
                             startYear={2009}
                             endYear={2012}
-                            jobName="First Job"
-                            jobDescription="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+                            jobName="Technical Project Manager "
+                            jobDescription={<ul>
+                                    <li>Built and launched the entire Bitypes.com website from start to finish. Maintain website and report user analytics to the founders</li>
+                                    <li>Aid in marketing company’s products and services to potential customers.</li>
+                                    <li>Provide user research and be the voice of customers to the company</li>
+                                    <li>Explain complex blockchain and cryptocurrency topics to non-technical customers.</li>
+                                </ul>}
                         />
 
                         <Experience

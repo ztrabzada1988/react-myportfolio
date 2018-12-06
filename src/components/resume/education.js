@@ -7,11 +7,11 @@ class Education extends Component {
       <div>
        <Grid>
            <Cell col={4}>
-            <p>{this.props.startYear} - {this.props.endYear}</p>     
+            <p style={{ marginTop: '10px' }}>{this.props.schoolName}</p>     
            </Cell>
            
            <Cell col={8}>
-            <h4 style={{marginTop: '0px'}}>{this.props.schoolName}</h4>
+            <h5 style={{marginTop: '10px', fontSize: '18px'}}>{this.props.major}</h5>
             <p>{this.props.schoolDescription}</p>
            </Cell>
        </Grid>
