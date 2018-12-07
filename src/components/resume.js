@@ -54,8 +54,8 @@ class Resume extends Component {
                         <h2>Experience</h2>
 
                         <Experience
-                            startYear={2009}
-                            endYear={2012}
+                            startYear={2017}
+                            endYear={2018}
                             jobName="Technical Project Manager "
                             jobDescription={<ul>
                                     <li>Built and launched the entire Bitypes.com website from start to finish. Maintain website and report user analytics to the founders</li>
@@ -72,8 +72,8 @@ class Resume extends Component {
                         />
 
                         <Experience
-                            startYear={2009}
-                            endYear={2012}
+                            startYear={2017}
+                            endYear={2018}
                             jobName="Cryptocurrency/Blockchain Researcher, Writer, Investor, Marketer (Freelance Work/Personal Projects)"
                             jobDescription={
                                 <ul>
@@ -90,8 +90,8 @@ class Resume extends Component {
 
 
                         <Experience
-                            startYear={2009}
-                            endYear={2012}
+                            startYear={2012}
+                            endYear={2017}
                             jobName="Project Engineer at C&S Engineers Inc & Langan "
                             jobDescription={
                                 <ul>
