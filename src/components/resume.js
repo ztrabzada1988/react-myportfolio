@@ -107,6 +107,25 @@ class Resume extends Component {
                             }
                         />
 
+                        <hr style={{borderTop: '3px sold #e22947'}} />
+
+                        <h2>Languages</h2>
+                        <Skills 
+                            skill="English"
+                            progress={90}
+                        />
+                        <Skills 
+                            skill="Farsi/Persian"
+                            progress={60}
+                        />
+                        <Skills 
+                            skill="Urdu/Hindi"
+                            progress={80}
+                        />
+                        <Skills 
+                            skill="Pashto"
+                            progress={25}
+                        />
 
                         <hr style={{borderTop: '3px sold #e22947'}} />
 
