@@ -113,7 +113,7 @@ class Projects extends Component {
                 <div className="projects-grid">
                     
                     {/* Ethereum Kickstarter */}
-                        <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
+                        <Card shadow={5} style={{minWidth: '450', margin: '11px', marginTop: '20px', borderRadius: '10px'}}>
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("http://msbusiness.com/wp-content/uploads/2018/09/lottery-feature_rgb-620x330.jpg")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
                                 <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Ethereum Lottery App</h6>
@@ -141,31 +141,76 @@ class Projects extends Component {
             );
         } else if(this.state.activeTab === 2) {
             return (
-                <div className="projects-grid">
-                    {/* Bitypes.com */}
-                    <Card shadow={5} style={{minWidth: '450', margin: '11px', borderRadius: '10px'}}>
-                    <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://today.ucf.edu/files/2018/08/iStock-892082986.jpg")', backgroundSize: 'cover'}}></CardTitle>
-                    <CardText style={{ color: '#222222' }}>
-                        <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Bitypes.com</h6>
-                        Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
-                    </CardText>
-                    <CardActions border>
-                        <Button colored><a href="https://bitypes.com" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Website</a></Button>
-                    </CardActions>
-                    </Card>
+                <div className="project-cards">
+                    <div className="projects-grid">
+                        {/* Ethereum Kickstarter */}
+                        <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
+                            <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("http://www.trbimg.com/img-58643812/turbine/ct-equity-crowdfunding-2016-predictions-bsi-20161229")', backgroundSize: 'cover'}}></CardTitle>
+                            <CardText style={{ color: '#222222' }}>
+                                <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Ethereum Crowd Fundraiser</h6>
+                                Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
+                            </CardText>
+                            <CardActions border>
+                                <Button colored><a href="https://github.com/ztrabzada1988/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
+                                <Button colored><a href="https://ztrabzada1988.github.io/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
+                            </CardActions>
+                        </Card>
 
-                    {/* Ethereum Lottery */}
-                    <Card shadow={5} style={{minWidth: '450', margin: '11px', borderRadius: '10px'}}>
-                    <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("http://www.trbimg.com/img-58643812/turbine/ct-equity-crowdfunding-2016-predictions-bsi-20161229")', backgroundSize: 'cover'}}></CardTitle>
-                    <CardText style={{ color: '#222222' }}>
-                        <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Ethereum Crowd Fundraiser</h6>
-                        Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
-                    </CardText>
-                    <CardActions border>
-                        <Button colored><a href="https://github.com/ztrabzada1988/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
-                        <Button colored><a href="https://ztrabzada1988.github.io/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
-                    </CardActions>
-                    </Card>
+                        {/* Bitypes.com */}
+                        <Card shadow={5} style={{minWidth: '450', margin: '11px', borderRadius: '10px'}}>
+                        <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://today.ucf.edu/files/2018/08/iStock-892082986.jpg")', backgroundSize: 'cover'}}></CardTitle>
+                        <CardText style={{ color: '#222222' }}>
+                            <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Bitypes.com</h6>
+                            Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
+                        </CardText>
+                        <CardActions border>
+                            <Button colored><a href="https://bitypes.com" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Website</a></Button>
+                        </CardActions>
+                        </Card>
+                    </div>
+                    <hr style={{borderTop: '1px solid white', width: '100%', marginTop: '30px'}}/>
+
+                    <h5 style={{ textAlign: 'center' }}>Below are research and marketing articles I have written about blockchain and cryptocurrencies on medium.com</h5>
+                    <div className="projects-grid" style= {{ marginTop: '30px'}}>
+                        {/* Ethereum Kickstarter */}
+                        <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
+                            <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://cdn-images-1.medium.com/max/1600/1*qrR3ZryKcoqUgKhd9316Rg.jpeg")', backgroundSize: 'cover'}}></CardTitle>
+                            <CardText style={{ color: '#222222' }}>
+                                <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Crypto 101: A simple guide to understanding and researching cryptocurrencies</h6>
+                                Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
+                            </CardText>
+                            <CardActions border>
+                                <Button colored><a href="https://github.com/ztrabzada1988/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
+                                <Button colored><a href="https://ztrabzada1988.github.io/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
+                            </CardActions>
+                        </Card>
+
+                        {/* Ethereum Lottery */}
+                        <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
+                            <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://cdn-images-1.medium.com/max/1600/1*UEKXA0Uy-ahEAdn0IcdR3Q.jpeg")', backgroundSize: 'cover'}}></CardTitle>
+                            <CardText style={{ color: '#222222' }}>
+                                <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>5 Cryptocurrencies to watch in 2018</h6>
+                                Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
+                            </CardText>
+                            <CardActions border>
+                                <Button colored><a href="https://github.com/ztrabzada1988/ethereum-lottery-app-react/" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
+                                <Button colored><a href="https://ztrabzada1988.github.io/ethereum-lottery-app-react" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
+                            </CardActions>
+                        </Card>
+
+                        {/* Bitypes.com */}
+                        <Card shadow={5} style={{minWidth: '450', margin: '11px', borderRadius: '10px'}}>
+                        <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://cdn-images-1.medium.com/max/1600/1*Qqs_urBSE9u2OmB5HgYX9g.jpeg")', backgroundSize: 'cover'}}></CardTitle>
+                        <CardText style={{ color: '#222222' }}>
+                            <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>5 Reasons why NEO is still undervalued</h6>
+                            Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
+                        </CardText>
+                        <CardActions border>
+                            <Button colored><a href="https://bitypes.com" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Website</a></Button>
+                        </CardActions>
+                        </Card>
+                    </div>
+
                 </div>
             )
         }
