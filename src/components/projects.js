@@ -169,7 +169,7 @@ class Projects extends Component {
                                 Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
                             </CardText>
                             <CardActions border>
-                                <Button colored><a href="https://ztrabzada1988.github.io/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Read Article</a></Button>
+                                <Button colored><a href="https://medium.com/@cryptonia/crypto-101-a-simple-guide-to-understanding-and-researching-cryptocurrencies-1da70896aee4" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Read Article</a></Button>
                             </CardActions>
                         </Card>
 
@@ -181,7 +181,7 @@ class Projects extends Component {
                                 Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
                             </CardText>
                             <CardActions border>
-                                <Button colored><a href="https://ztrabzada1988.github.io/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Read Article</a></Button>
+                                <Button colored><a href="https://blog.goodaudience.com/5-cryptocurrencies-to-watch-in-2018-47a77e2c17f0" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Read Article</a></Button>
                             </CardActions>
                         </Card>
 
@@ -193,7 +193,7 @@ class Projects extends Component {
                             Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
                         </CardText>
                         <CardActions border>
-                            <Button colored><a href="https://bitypes.com" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Read Article</a></Button>
+                            <Button colored><a href="https://techburst.io/5-reasons-why-neo-is-still-undervalued-65571466b50" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Read Article</a></Button>
                         </CardActions>
                         </Card>
                     </div>
