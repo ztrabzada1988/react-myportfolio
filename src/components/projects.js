@@ -91,6 +91,18 @@ class Projects extends Component {
                                 <Button colored><a href="https://ztrabzada1988.github.io/ethereum-lottery-app-react" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
                             </CardActions>
                         </Card>
+
+                        {/* Bitypes.com */}
+                        <Card shadow={5} style={{minWidth: '450', margin: '11px', borderRadius: '10px'}}>
+                        <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://today.ucf.edu/files/2018/08/iStock-892082986.jpg")', backgroundSize: 'cover'}}></CardTitle>
+                        <CardText style={{ color: '#222222' }}>
+                            <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Bitypes.com</h6>
+                            Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
+                        </CardText>
+                        <CardActions border>
+                            <Button colored><a href="https://bitypes.com" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Website</a></Button>
+                        </CardActions>
+                        </Card>
                     </div>
 
                 </div>
@@ -130,16 +142,15 @@ class Projects extends Component {
         } else if(this.state.activeTab === 2) {
             return (
                 <div className="projects-grid">
-                    {/* Ethereum Lottery */}
+                    {/* Bitypes.com */}
                     <Card shadow={5} style={{minWidth: '450', margin: '11px', borderRadius: '10px'}}>
-                    <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("http://www.trbimg.com/img-58643812/turbine/ct-equity-crowdfunding-2016-predictions-bsi-20161229")', backgroundSize: 'cover'}}></CardTitle>
+                    <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://today.ucf.edu/files/2018/08/iStock-892082986.jpg")', backgroundSize: 'cover'}}></CardTitle>
                     <CardText style={{ color: '#222222' }}>
-                        <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Ethereum Crowd Fundraiser</h6>
+                        <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Bitypes.com</h6>
                         Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
                     </CardText>
                     <CardActions border>
-                        <Button colored><a href="https://github.com/ztrabzada1988/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
-                        <Button colored><a href="https://ztrabzada1988.github.io/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
+                        <Button colored><a href="https://bitypes.com" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Website</a></Button>
                     </CardActions>
                     </Card>
 
