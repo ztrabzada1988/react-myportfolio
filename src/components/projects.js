@@ -113,7 +113,7 @@ class Projects extends Component {
                 <div className="projects-grid">
                     
                     {/* Ethereum Kickstarter */}
-                        <Card shadow={5} style={{minWidth: '450', margin: '11px', marginTop: '20px', borderRadius: '10px'}}>
+                        <Card shadow={5} style={{minWidth: '450', margin: '11px', borderRadius: '10px'}}>
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("http://msbusiness.com/wp-content/uploads/2018/09/lottery-feature_rgb-620x330.jpg")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
                                 <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Ethereum Lottery App</h6>
@@ -144,7 +144,7 @@ class Projects extends Component {
                 <div className="project-cards">
                     <div className="projects-grid">
                         {/* Ethereum Kickstarter */}
-                        <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
+                        <Card shadow={5} style={{minWidth: '450', borderRadius: '10px', marginLeft: '10px', marginRight: '10px' }}>
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("http://www.trbimg.com/img-58643812/turbine/ct-equity-crowdfunding-2016-predictions-bsi-20161229")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
                                 <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Ethereum Crowd Fundraiser</h6>
@@ -157,7 +157,7 @@ class Projects extends Component {
                         </Card>
 
                         {/* Bitypes.com */}
-                        <Card shadow={5} style={{minWidth: '450', margin: '11px', borderRadius: '10px'}}>
+                        <Card shadow={5} style={{minWidth: '450', marginLeft: '10px', marginRight: '10px', borderRadius: '10px'}}>
                         <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://today.ucf.edu/files/2018/08/iStock-892082986.jpg")', backgroundSize: 'cover'}}></CardTitle>
                         <CardText style={{ color: '#222222' }}>
                             <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Bitypes.com</h6>
@@ -170,7 +170,7 @@ class Projects extends Component {
                     </div>
                     <hr style={{borderTop: '1px solid white', width: '100%', marginTop: '30px'}}/>
 
-                    <h5 style={{ textAlign: 'center' }}>Below are research and marketing articles I have written about blockchain and cryptocurrencies on medium.com</h5>
+                    <h5 style={{ textAlign: 'center' }}>Research Articles I have Written About Blockchain and Cryptocurrencies on medium.com</h5>
                     <div className="projects-grid" style= {{ marginTop: '30px'}}>
                         {/* Ethereum Kickstarter */}
                         <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
