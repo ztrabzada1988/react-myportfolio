@@ -80,15 +80,15 @@ class Projects extends Component {
                         </Card>
 
                         {/* Ethereum Lottery */}
-                        <Card shadow={5} style={{minWidth: '450', margin: '11px', borderRadius: '10px'}}>
-                            <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("http://www.trbimg.com/img-58643812/turbine/ct-equity-crowdfunding-2016-predictions-bsi-20161229")', backgroundSize: 'cover'}}></CardTitle>
+                        <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
+                            <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("http://msbusiness.com/wp-content/uploads/2018/09/lottery-feature_rgb-620x330.jpg")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
-                                <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Ethereum Crowd Fundraiser</h6>
+                                <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Ethereum Lottery App</h6>
                                 Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
                             </CardText>
                             <CardActions border>
-                                <Button colored><a href="https://github.com/ztrabzada1988/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
-                                <Button colored><a href="https://ztrabzada1988.github.io/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
+                                <Button colored><a href="https://github.com/ztrabzada1988/ethereum-lottery-app-react/" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
+                                <Button colored><a href="https://ztrabzada1988.github.io/ethereum-lottery-app-react" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
                             </CardActions>
                         </Card>
                     </div>
@@ -102,14 +102,14 @@ class Projects extends Component {
                     
                     {/* Ethereum Kickstarter */}
                         <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
-                            <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("http://www.trbimg.com/img-58643812/turbine/ct-equity-crowdfunding-2016-predictions-bsi-20161229")', backgroundSize: 'cover'}}></CardTitle>
+                            <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("http://msbusiness.com/wp-content/uploads/2018/09/lottery-feature_rgb-620x330.jpg")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
-                                <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Ethereum Crowd Fundraiser</h6>
+                                <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Ethereum Lottery App</h6>
                                 Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
                             </CardText>
                             <CardActions border>
-                                <Button colored><a href="https://github.com/ztrabzada1988/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
-                                <Button colored><a href="https://ztrabzada1988.github.io/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
+                                <Button colored><a href="https://github.com/ztrabzada1988/ethereum-lottery-app-react/" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
+                                <Button colored><a href="https://ztrabzada1988.github.io/ethereum-lottery-app-react" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
                             </CardActions>
                         </Card>
 
