@@ -17,7 +17,7 @@ class Projects extends Component {
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSi-blSQwnpwJ9ODkRyfjs3QQYdekT2GtNs9uMwVnypzvK56MF9g")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
                                 <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>My Portfolio</h6>
-                                Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
+                                Multi-page portfolio website built with React JS. React Material Design Lite is used mainly for component design. HTML and CSS is used for all styling.  
                             </CardText>
                             <CardActions border>
                                 <Button colored><a href="https://github.com/ztrabzada1988/react-myportfolio" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
@@ -30,7 +30,7 @@ class Projects extends Component {
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://i.pinimg.com/originals/00/6f/fd/006ffd872df01f4e422965806dbc6a5d.png")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
                                 <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>YouTube API Project</h6>
-                                Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
+                                A faster YouTube with instant search. This YouTube app is built with React JS. YouTube's api is used to retrieve all the videos. HTML and CSS used for simple styling.
                             </CardText>
                             <CardActions border>
                                 <Button colored><a href="https://github.com/ztrabzada1988/youtube-app" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
