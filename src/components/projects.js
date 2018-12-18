@@ -10,10 +10,10 @@ class Projects extends Component {
     toggleCategorries() {
         if(this.state.activeTab === 0) {
             return (
-                <div className="project-cards">
-                    <div className="projects-grid">
+                <div>
+                    <div className="projects-grid" style= {{ marginTop: '30px', float: 'left' }}>
                         {/* My Portfolio */}
-                        <Card shadow={5} style={{minWidth: '450', margin: 'auto', borderRadius: '10px'}}>
+                        <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSi-blSQwnpwJ9ODkRyfjs3QQYdekT2GtNs9uMwVnypzvK56MF9g")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
                                 <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>My Portfolio</h6>
@@ -26,7 +26,7 @@ class Projects extends Component {
                         </Card>
                     
                         {/* YouTube API App */}
-                        <Card shadow={5} style={{minWidth: '450', margin: 'auto', borderRadius: '10px'}}>
+                        <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://i.pinimg.com/originals/00/6f/fd/006ffd872df01f4e422965806dbc6a5d.png")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
                                 <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>YouTube API Project</h6>
@@ -39,7 +39,7 @@ class Projects extends Component {
                         </Card>
 
                         {/* React Reminder App */}
-                        <Card shadow={5} style={{minWidth: '450', margin: 'auto', borderRadius: '10px'}}>
+                        <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("http://citycampus.gr/wp-content/uploads/2018/08/072518-to-do-list.jpg")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
                                 <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Task Reminder App</h6>
@@ -52,7 +52,7 @@ class Projects extends Component {
                         </Card>
 
                         {/* Photo Finder */}
-                        <Card shadow={5} style={{minWidth: '450', margin: 'auto', borderRadius: '10px'}}>
+                        <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://www.imore.com/sites/imore.com/files/styles/xlarge/public/field/image/2017/04/slow-shutter-speed-hero-01.jpg?itok=HiXaCFkW")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
                                 <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Image Finder App</h6>
