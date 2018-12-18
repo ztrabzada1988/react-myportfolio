@@ -43,7 +43,7 @@ class Projects extends Component {
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("http://citycampus.gr/wp-content/uploads/2018/08/072518-to-do-list.jpg")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
                                 <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Task Reminder App</h6>
-                                Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
+                                A simple task reminder app built with React and Redux. No react library used besides npm packages. Simple styling is done with HTML and CSS. 
                             </CardText>
                             <CardActions border>
                                 <Button colored><a href="https://github.com/ztrabzada1988/reminderApp" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
