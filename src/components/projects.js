@@ -56,7 +56,7 @@ class Projects extends Component {
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://www.imore.com/sites/imore.com/files/styles/xlarge/public/field/image/2017/04/slow-shutter-speed-hero-01.jpg?itok=HiXaCFkW")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
                                 <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Image Finder App</h6>
-                                Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
+                                Built with React JS (Material UI), this app uses PixaBay's API to search for stunning photos. User can select photos per page shown from a drop down menu. HTML + CSS for styling.
                             </CardText>
                             <CardActions border>
                                 <Button colored><a href="https://github.com/ztrabzada1988/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
