@@ -117,7 +117,7 @@ class Projects extends Component {
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("http://msbusiness.com/wp-content/uploads/2018/09/lottery-feature_rgb-620x330.jpg")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
                                 <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Ethereum Lottery App</h6>
-                                Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
+                                Built with React JS (Material UI), this app uses PixaBay's API to search for stunning photos. User can select photos per page shown from a drop down menu. HTML + CSS for styling.
                             </CardText>
                             <CardActions border>
                                 <Button colored><a href="https://github.com/ztrabzada1988/ethereum-lottery-app-react/" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
@@ -130,7 +130,7 @@ class Projects extends Component {
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("http://www.trbimg.com/img-58643812/turbine/ct-equity-crowdfunding-2016-predictions-bsi-20161229")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
                                 <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Ethereum Crowd Fundraiser</h6>
-                                Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
+                                Built with React JS (Material UI), this app uses PixaBay's API to search for stunning photos. User can select photos per page shown from a drop down menu. HTML + CSS for styling.
                             </CardText>
                             <CardActions border>
                                 <Button colored><a href="https://github.com/ztrabzada1988/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
@@ -150,7 +150,7 @@ class Projects extends Component {
                         <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://today.ucf.edu/files/2018/08/iStock-892082986.jpg")', backgroundSize: 'cover'}}></CardTitle>
                         <CardText style={{ color: '#222222' }}>
                             <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Bitypes.com</h6>
-                            Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
+                            Built with React JS (Material UI), this app uses PixaBay's API to search for stunning photos. User can select photos per page shown from a drop down menu. HTML + CSS for styling.
                         </CardText>
                         <CardActions border>
                             <Button colored><a href="https://bitypes.com" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Website</a></Button>
@@ -166,7 +166,7 @@ class Projects extends Component {
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://cdn-images-1.medium.com/max/1600/1*qrR3ZryKcoqUgKhd9316Rg.jpeg")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
                                 <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Crypto 101: A simple guide to understanding and researching cryptocurrencies</h6>
-                                Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
+                                Built with React JS (Material UI), this app uses PixaBay's API to search for stunning photos. User can select photos per page shown from a drop down menu. HTML + CSS for styling.
                             </CardText>
                             <CardActions border>
                                 <Button colored><a href="https://medium.com/@cryptonia/crypto-101-a-simple-guide-to-understanding-and-researching-cryptocurrencies-1da70896aee4" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Read Article</a></Button>
@@ -178,7 +178,7 @@ class Projects extends Component {
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://cdn-images-1.medium.com/max/1600/1*UEKXA0Uy-ahEAdn0IcdR3Q.jpeg")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
                                 <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>5 Cryptocurrencies to watch in 2018</h6>
-                                Youtube Api Project built with react and youtube api. Youtube Api Project built with react and youtube api
+                                Built with React JS (Material UI), this app uses PixaBay's API to search for stunning photos. User can select photos per page shown from a drop down menu. HTML + CSS for styling.
                             </CardText>
                             <CardActions border>
                                 <Button colored><a href="https://blog.goodaudience.com/5-cryptocurrencies-to-watch-in-2018-47a77e2c17f0" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Read Article</a></Button>
