@@ -84,7 +84,7 @@ class Projects extends Component {
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("http://msbusiness.com/wp-content/uploads/2018/09/lottery-feature_rgb-620x330.jpg")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
                                 <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Ethereum Lottery App</h6>
-                                Frontend built with React JS (Semantic-UI), this app uses Ethereum's Solidity language to create Blockchain based crowdfunding projects. HTML + CSS for styling.
+                                Frontend built with React JS (Material-UI), this app uses Ethereum's Solidity language to create Blockchain based lottery project. HTML + CSS for styling.
                             </CardText>
                             <CardActions border>
                                 <Button colored><a href="https://github.com/ztrabzada1988/ethereum-lottery-app-react/" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
