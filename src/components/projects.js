@@ -74,8 +74,8 @@ class Projects extends Component {
                                 Frontend built with React JS (Semantic-UI), this app uses Ethereum's Solidity language to create Blockchain based crowdfunding projects. HTML + CSS for styling.
                             </CardText>
                             <CardActions border>
-                                <Button colored><a href="https://github.com/ztrabzada1988/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
-                                <Button colored><a href="https://ztrabzada1988.github.io/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
+                                <Button colored><a href="https://github.com/ztrabzada1988/ethereum-kickstarter-app" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
+                                <Button colored><a href="https://github.com/ztrabzada1988/ethereum-kickstarter-app" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
                             </CardActions>
                         </Card>
 
@@ -133,8 +133,8 @@ class Projects extends Component {
                                 Frontend built with React JS (Semantic-UI), this app uses Ethereum's Solidity language to create Blockchain based crowdfunding projects. HTML + CSS for styling.
                             </CardText>
                             <CardActions border>
-                                <Button colored><a href="https://github.com/ztrabzada1988/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
-                                <Button colored><a href="https://ztrabzada1988.github.io/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
+                                <Button colored><a href="https://github.com/ztrabzada1988/ethereum-kickstarter-app" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
+                                <Button colored><a href="https://github.com/ztrabzada1988/ethereum-kickstarter-app" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
                             </CardActions>
                         </Card>
                 </div>
