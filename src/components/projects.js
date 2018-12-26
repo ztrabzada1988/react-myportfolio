@@ -112,7 +112,20 @@ class Projects extends Component {
             return (
                 <div className="projects-grid">
                     
-                    {/* Ethereum Lottery */}
+                    {/* Ethereum Kickstarter*/}
+                    <Card shadow={5} style={{minWidth: '450', margin: '11px', borderRadius: '10px'}}>
+                            <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("http://www.trbimg.com/img-58643812/turbine/ct-equity-crowdfunding-2016-predictions-bsi-20161229")', backgroundSize: 'cover'}}></CardTitle>
+                            <CardText style={{ color: '#222222' }}>
+                                <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Ethereum Crowd Fundraiser</h6>
+                                Frontend built with React JS (Semantic-UI), this app uses Ethereum's Solidity language to create Blockchain based crowdfunding projects. HTML + CSS for styling.
+                            </CardText>
+                            <CardActions border>
+                                <Button colored><a href="https://github.com/ztrabzada1988/ethereum-kickstarter-app" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
+                                <Button colored><a href="https://github.com/ztrabzada1988/ethereum-kickstarter-app" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
+                            </CardActions>
+                        </Card>
+
+                        {/* Ethereum Lottery */}
                         <Card shadow={5} style={{minWidth: '450', margin: '11px', borderRadius: '10px'}}>
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("http://msbusiness.com/wp-content/uploads/2018/09/lottery-feature_rgb-620x330.jpg")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
@@ -125,18 +138,6 @@ class Projects extends Component {
                             </CardActions>
                         </Card>
 
-                        {/* Ethereum Kickstarter*/}
-                        <Card shadow={5} style={{minWidth: '450', margin: '11px', borderRadius: '10px'}}>
-                            <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("http://www.trbimg.com/img-58643812/turbine/ct-equity-crowdfunding-2016-predictions-bsi-20161229")', backgroundSize: 'cover'}}></CardTitle>
-                            <CardText style={{ color: '#222222' }}>
-                                <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Ethereum Crowd Fundraiser</h6>
-                                Frontend built with React JS (Semantic-UI), this app uses Ethereum's Solidity language to create Blockchain based crowdfunding projects. HTML + CSS for styling.
-                            </CardText>
-                            <CardActions border>
-                                <Button colored><a href="https://github.com/ztrabzada1988/ethereum-kickstarter-app" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
-                                <Button colored><a href="https://github.com/ztrabzada1988/ethereum-kickstarter-app" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
-                            </CardActions>
-                        </Card>
                 </div>
             );
         } else if(this.state.activeTab === 2) {
