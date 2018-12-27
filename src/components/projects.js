@@ -145,6 +145,18 @@ class Projects extends Component {
                 <div className="project-cards">
                     <div className="projects-grid">
                         
+                        {/* Bitypes*/}
+                        <Card shadow={5} style={{minWidth: '450', marginLeft: '10px', marginRight: '10px', borderRadius: '10px'}}>
+                        <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://today.ucf.edu/files/2018/08/iStock-892082986.jpg")', backgroundSize: 'cover'}}></CardTitle>
+                        <CardText style={{ color: '#222222' }}>
+                            <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Lyric Search</h6>
+                            This multi-page, fully functional website is built completely with WordPress. This startup provides consulting services in the cryptocurrency payment industry.
+                        </CardText>
+                        <CardActions border>
+                            <Button colored><a href="https://bitypes.com" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Website</a></Button>
+                        </CardActions>
+                        </Card>
+                        </div>
 
                         {/* Bitypes*/}
                         <Card shadow={5} style={{minWidth: '450', marginLeft: '10px', marginRight: '10px', borderRadius: '10px'}}>
