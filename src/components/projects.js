@@ -156,7 +156,6 @@ class Projects extends Component {
                             <Button colored><a href="https://" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Website</a></Button>
                         </CardActions>
                         </Card>
-                        </div>
 
                         {/* Bitypes*/}
                         <Card shadow={5} style={{minWidth: '450', marginLeft: '10px', marginRight: '10px', borderRadius: '10px'}}>

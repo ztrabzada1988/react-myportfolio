@@ -40,8 +40,8 @@ class Resume extends Component {
 
                         <Education 
                             schoolName="University at Buffalo"
-                            major="B.S. in Civil Engineering"
-                            schoolDescription="Completed studies in advance mathematics, structural engineering, statistics, problem solving, civil engineering design subjects, technical writing, and etc."
+                            major="B.S. in Structural Engineering"
+                            schoolDescription="Completed studies in advance mathematics, structural engineering, statistics, problem solving, engineering design subjects, technical writing, and etc."
                         />
 
                         <Education 
@@ -102,29 +102,8 @@ class Resume extends Component {
                                     <li>Incorporating new software to make routine tasks more efficient.</li>
                                     <li>Overall management (reports, calculation, meetings, and other tasks) of company owned.</li>
                                     <li>and privately contracted projects related to the engineering department.</li>
-
                                 </ul>
                             }
-                        />
-
-                        <hr style={{borderTop: '3px sold #e22947'}} />
-
-                        <h2>Languages</h2>
-                        <Skills 
-                            skill="English"
-                            progress={90}
-                        />
-                        <Skills 
-                            skill="Farsi/Persian"
-                            progress={60}
-                        />
-                        <Skills 
-                            skill="Urdu/Hindi"
-                            progress={80}
-                        />
-                        <Skills 
-                            skill="Pashto"
-                            progress={25}
                         />
 
                         <hr style={{borderTop: '3px sold #e22947'}} />
@@ -136,14 +115,14 @@ class Resume extends Component {
                         />
                         <Skills 
                             skill="HTML/CSS"
-                            progress={60}
+                            progress={80}
                         />
                         <Skills 
                             skill="React"
                             progress={80}
                         />
                         <Skills 
-                            skill="Solidity"
+                            skill="Ethereum/Solidity"
                             progress={25}
                         />
 
