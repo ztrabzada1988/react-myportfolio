@@ -182,7 +182,7 @@ class Projects extends Component {
                                 An extensive and simple to understand research article written to explain the history and technology behind Blockchain and Cryptocurrencies.
                             </CardText>
                             <CardActions border>
-                                <Button colored><a href="https://medium.com/@cryptonia/crypto-101-a-simple-guide-to-understanding-and-researching-cryptocurrencies-1da70896aee4" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Read Article</a></Button>
+                                <Button colored><a href="https://medium.com/@cryptonia/crypto-101-a-simple-guide-to-understanding-and-researching-Cryptocurrencies-1da70896aee4" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Read Article</a></Button>
                             </CardActions>
                         </Card>
 
@@ -191,10 +191,10 @@ class Projects extends Component {
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://cdn-images-1.medium.com/max/1600/1*UEKXA0Uy-ahEAdn0IcdR3Q.jpeg")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
                                 <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>5 Cryptocurrencies to Watch in 2018</h6>
-                                This article was written in 2017 to showcase which cryptocurrencies had the most promising technology and team to succeed in 2018 and beyond. The article focuses on 5 projects and gives reasons why each will succeed. 
+                                This article was written in 2017 to showcase which Cryptocurrencies had the most promising technology and team to succeed in 2018 and beyond. The article focuses on 5 projects and gives reasons why each will succeed. 
                             </CardText> 
                             <CardActions border>
-                                <Button colored><a href="https://blog.goodaudience.com/5-cryptocurrencies-to-watch-in-2018-47a77e2c17f0" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Read Article</a></Button>
+                                <Button colored><a href="https://blog.goodaudience.com/5-Cryptocurrencies-to-watch-in-2018-47a77e2c17f0" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Read Article</a></Button>
                             </CardActions>
                         </Card>
 
@@ -203,7 +203,7 @@ class Projects extends Component {
                         <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://cdn-images-1.medium.com/max/1600/1*Qqs_urBSE9u2OmB5HgYX9g.jpeg")', backgroundSize: 'cover'}}></CardTitle>
                         <CardText style={{ color: '#222222' }}>
                             <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>5 Reasons Why NEO is Still Undervalued</h6>
-                            This article solely focuses on the technology of one of the most well known cryptocurrencies, NEO. It goes in detail on why NEO is one of most promising Blockchain based companies.
+                            This article solely focuses on the technology of one of the most well known Cryptocurrencies, NEO. It goes in detail on why NEO is one of most promising Blockchain based companies.
                         </CardText>
                         <CardActions border>
                             <Button colored><a href="https://techburst.io/5-reasons-why-neo-is-still-undervalued-65571466b50" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Read Article</a></Button>

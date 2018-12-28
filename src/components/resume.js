@@ -83,10 +83,10 @@ class Resume extends Component {
                             jobName="Cryptocurrency/Blockchain Researcher, Writer, Investor (Freelance Work/Personal Projects)"
                             jobDescription={
                                 <ul>
-                                    <li>Passionately researching Blockchain projects and new cryptocurrencies to gain more knowledge and invest appropriately.</li>
+                                    <li>Passionately researching Blockchain projects and new Cryptocurrencies to gain more knowledge and invest appropriately.</li>
 	                                <li>Attending meetups in the San Francisco Bay Area to meet founding members of new Blockchain companies and developers.</li>
-                                    <li>Researching and writing (medium.com) articles on Blockchain, cryptography, and cryptocurrencies.</li>
-                                    <li>Doing one-on-one marketing for ICOs and other cryptocurrencies online (reddit.com, discord, telegram) and during evening meetups in the San Francisco Bay Area.</li>
+                                    <li>Researching and writing (medium.com) articles on Blockchain, cryptography, and Cryptocurrencies.</li>
+                                    <li>Doing one-on-one marketing for ICOs and other Cryptocurrencies online (Reddit.com, Discord, Telegram) and during evening meetups in the San Francisco Bay Area.</li>
                                     <li>Thoroughly evaluating white papers and GitHub code of new Blockchain projects before investing.</li>
                                     <li>Investigating technical and marketing team members (LinkedIn profiles, meeting one-on- one during meetups if possible, looking at education background, and etc.) of new Blockchain project before investing.</li>
                                 </ul>
