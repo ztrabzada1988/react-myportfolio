@@ -36,7 +36,7 @@ class Resume extends Component {
                     
                     
                     <Cell className="resume-right-col" col={8}>
-                        <h2>Education</h2>
+                        <h3>Education</h3>
 
                         <Education 
                             schoolName="University at Buffalo"
@@ -57,12 +57,12 @@ class Resume extends Component {
                         />
                         <hr style={{borderTop: '3px sold #e22947'}} />
 
-                        <h2>Experience</h2>
+                        <h3>Experience</h3>
 
                         <Experience
                             startYear={2017}
                             endYear={2018}
-                            jobName="Technical Project Manager "
+                            jobName="Co-Founder/Project Manager & Web Developer"
                             jobDescription={<ul>
                                     <li>Built and launched the entire Bitypes.com website from start to finish. Maintain website and report user analytics to the founders</li>
                                     <li>Aid in marketing company’s products and services to potential customers.</li>
@@ -116,7 +116,7 @@ class Resume extends Component {
 
                         <hr style={{borderTop: '3px sold #e22947'}} />
 
-                        <h2>Skills</h2>
+                        <h3>Skills</h3>
                         <Skills 
                             skill="Javascript"
                             progress={90}
