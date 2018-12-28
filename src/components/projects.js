@@ -97,7 +97,7 @@ class Projects extends Component {
                         <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://today.ucf.edu/files/2018/08/iStock-892082986.jpg")', backgroundSize: 'cover'}}></CardTitle>
                         <CardText style={{ color: '#222222' }}>
                             <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Bitypes.com</h6>
-                            This multi-page, fully functional website is built completely with WordPress. This startup provides consulting services in the cryptocurrency payment industry.   
+                            This multi-page, fully functional website is built completely with WordPress. This startup provides consulting services in the Cryptocurrency payment industry.   
                         </CardText>
                         <CardActions border>
                             <Button colored><a href="https://bitypes.com" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Website</a></Button>
@@ -162,7 +162,7 @@ class Projects extends Component {
                         <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://today.ucf.edu/files/2018/08/iStock-892082986.jpg")', backgroundSize: 'cover'}}></CardTitle>
                         <CardText style={{ color: '#222222' }}>
                             <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Bitypes.com</h6>
-                            This multi-page, fully functional website is built completely with WordPress. This startup provides consulting services in the cryptocurrency payment industry.
+                            This multi-page, fully functional website is built completely with WordPress. This startup provides consulting services in the Cryptocurrency payment industry.
                         </CardText>
                         <CardActions border>
                             <Button colored><a href="https://bitypes.com" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Website</a></Button>

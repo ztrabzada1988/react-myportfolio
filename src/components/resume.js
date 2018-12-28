@@ -62,33 +62,33 @@ class Resume extends Component {
                         <Experience
                             startYear={2017}
                             endYear={2018}
-                            jobName="Co-Founder/Project Manager & Web Developer"
+                            jobName="Technical Project Manager & Web Developer (Co-Founder)"
                             jobDescription={<ul>
                                     <li>Built and launched the entire Bitypes.com website from start to finish. Maintain website and report user analytics to the founders</li>
                                     <li>Aid in marketing company’s products and services to potential customers.</li>
-                                    <li>Provide user research and be the voice of customers to the company</li>
-                                    <li>Explain complex blockchain and cryptocurrency topics to non-technical customers.</li>
-                                    <li>Constantly research blockchain and cryptocurrency regulations to provide the most</li>
+                                    <li>Provide user research data and be the voice of customers to the company</li>
+                                    <li>Explain complex Blockchain and Cryptocurrency topics to non-technical customers.</li>
+                                    <li>Constantly research Blockchain and Cryptocurrency regulations to provide the most</li>
                                     <li>updated information to the founders for better product delivery.</li>
-                                    <li>Study cryptocurrency markets and provide user behavior report to recommend future business opportunities for the company.</li>
-                                    <li>Provide weekly reports on cryptocurrency market liquidity on different exchanges(mainly Coinbase, Binance, Bittrex, Poloniex).</li>
-                                    <li>Attend blockchain meetups and conferences in the San Francisco Bay Area to study overall blockchain community interest.</li>
-                                    <li>Observing community strength and involvement of new blockchain projects by participating in all online media platforms (reddit, twitter, slack, telegram, and etc).</li>
+                                    <li>Study Cryptocurrency markets and provide user behavior report to recommend future business opportunities for the company.</li>
+                                    <li>Provide weekly reports on Cryptocurrency market liquidity on different exchanges(mainly Coinbase, Binance, Bittrex, Poloniex).</li>
+                                    <li>Attend Blockchain meetups and conferences in the San Francisco Bay Area to study overall Blockchain community interest.</li>
+                                    <li>Observing community strength and involvement of new Blockchain projects by participating in all online media platforms (reddit, twitter, slack, telegram, and etc).</li>
                                 </ul>}
                         />
 
                         <Experience
                             startYear={2017}
                             endYear={2018}
-                            jobName="Cryptocurrency/Blockchain Researcher, Writer, Investor, Marketer (Freelance Work/Personal Projects)"
+                            jobName="Cryptocurrency/Blockchain Researcher, Writer, Investor (Freelance Work/Personal Projects)"
                             jobDescription={
                                 <ul>
-                                    <li>Passionately researching blockchain projects and new cryptocurrencies to gain more knowledge and invest appropriately.</li>
-	                                <li>Attending meetups in the San Francisco Bay Area to meet founding members of new blockchain companies and developers.</li>
-                                    <li>Researching and writing (medium.com) articles on blockchain, cryptography, and cryptocurrencies.</li>
+                                    <li>Passionately researching Blockchain projects and new cryptocurrencies to gain more knowledge and invest appropriately.</li>
+	                                <li>Attending meetups in the San Francisco Bay Area to meet founding members of new Blockchain companies and developers.</li>
+                                    <li>Researching and writing (medium.com) articles on Blockchain, cryptography, and cryptocurrencies.</li>
                                     <li>Doing one-on-one marketing for ICOs and other cryptocurrencies online (reddit.com, discord, telegram) and during evening meetups in the San Francisco Bay Area.</li>
-                                    <li>Thoroughly evaluating white papers and GitHub code of new blockchain projects before investing.</li>
-                                    <li>Investigating technical and marketing team members (LinkedIn profiles, meeting one-on- one during meetups if possible, looking at education background, and etc.) of new blockchain project before investing.</li>
+                                    <li>Thoroughly evaluating white papers and GitHub code of new Blockchain projects before investing.</li>
+                                    <li>Investigating technical and marketing team members (LinkedIn profiles, meeting one-on- one during meetups if possible, looking at education background, and etc.) of new Blockchain project before investing.</li>
                                 </ul>
                             }
                         />

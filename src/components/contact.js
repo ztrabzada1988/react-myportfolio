@@ -12,7 +12,7 @@ class Contact extends Component {
                              alt="avatar" 
                              style={{height: "250px"}}
                         />
-                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Hello i am zubair i like to code and love to do blockchain and study and enjoy life and play sports. Hello i am zubair i like to code and love to do blockchain and study and enjoy life and play sports. Hello i am zubair i like to code and love to do blockchain and study and enjoy life and play sports</p>
+                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Hello i am zubair i like to code and love to do Blockchain and study and enjoy life and play sports. Hello i am zubair i like to code and love to do Blockchain and study and enjoy life and play sports. Hello i am zubair i like to code and love to do Blockchain and study and enjoy life and play sports</p>
                     </Cell>
 
                     <Cell col={6}>
