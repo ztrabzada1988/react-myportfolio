@@ -49,6 +49,12 @@ class Resume extends Component {
                             major="Full Stack Web Development"
                             schoolDescription="Completed coding bootcamp in full stack web development with HTML, CSS, JavaScript, React.js, Redux, Node.js, jQuery, Webpack, Express, Bootstrap, Heroku, and GitHub"
                         />
+
+                        <Education 
+                            schoolName="Udemy"
+                            major="Web Development (Continuously Learning)"
+                            schoolDescription="I am constantly taking courses on Udemy to keep my skills up to date. So far, I have taken 10 courses in various Web and Blockchain development topics."
+                        />
                         <hr style={{borderTop: '3px sold #e22947'}} />
 
                         <h2>Experience</h2>
@@ -79,11 +85,10 @@ class Resume extends Component {
                                 <ul>
                                     <li>Passionately researching blockchain projects and new cryptocurrencies to gain more knowledge and invest appropriately.</li>
 	                                <li>Attending meetups in the San Francisco Bay Area to meet founding members of new blockchain companies and developers.</li>
-                                    <li>Researching and writing (medium.com) articles on blockchain, cryptography, and cryptocurrencies.
+                                    <li>Researching and writing (medium.com) articles on blockchain, cryptography, and cryptocurrencies.</li>
                                     <li>Doing one-on-one marketing for ICOs and other cryptocurrencies online (reddit.com, discord, telegram) and during evening meetups in the San Francisco Bay Area.</li>
                                     <li>Thoroughly evaluating white papers and GitHub code of new blockchain projects before investing.</li>
                                     <li>Investigating technical and marketing team members (LinkedIn profiles, meeting one-on- one during meetups if possible, looking at education background, and etc.) of new blockchain project before investing.</li>
-                                    </li>
                                 </ul>
                             }
                         />
@@ -92,16 +97,19 @@ class Resume extends Component {
                         <Experience
                             startYear={2012}
                             endYear={2017}
-                            jobName="Project Engineer at C&S Engineers Inc & Langan "
+                            jobName="Project Engineer at C&S Engineers Inc & Langan Engineering Inc."
                             jobDescription={
                                 <ul>
+                                    <li>Design and implementation of various engineering projects</li>
+                                    <li>Overseeing projects from start to finish (design, calculations, budgeting amd prioritizing tasks, and etc.)</li>
+                                    <li>Responding to information requests from onsite contractors regarding design and calculations of ongoing projects</li>
+                                    <li>Solving daily problems faced on site and in the office to make sure projects completes on time and budget</li>
                                     <li>Training new engineers on daily tasks.</li>
                                     <li>Prioritizing capital improvement projects and managing contractors from start to finish.</li>
                                     <li>Reviewing calculations and plans of contracted engineers.</li>
                                     <li>Handling daily communications between public and staff for the department.</li>
                                     <li>Incorporating new software to make routine tasks more efficient.</li>
-                                    <li>Overall management (reports, calculation, meetings, and other tasks) of company owned.</li>
-                                    <li>and privately contracted projects related to the engineering department.</li>
+                                    <li>Overall management (reports, calculation, meetings, and other tasks) of company owned and privately contracted projects related to the engineering department.</li>
                                 </ul>
                             }
                         />
