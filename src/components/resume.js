@@ -21,7 +21,7 @@ class Resume extends Component {
                         <h2 style={{paddingTop: '2em'}}>Zubair Trabzada</h2>
                         <h4 style={{color: 'grey'}}>Programmer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                        <p>I am extremely passionate about programming. I love coding in Javascript and using the React library. I also very passionate about the Blockchain technology. On my spare time I like to research on Blockchain and improve my coding skills. I love basketball and play 2-3 times a week to keep a healthy lifestyle. I am firm believer in having a balanced life. One must work on their mind and body equally to have a better lifestyle at work and home.</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <h5>Address</h5>
                         <p> 1 Hacker Way, Menlo Park, CA 95050</p>
@@ -33,8 +33,7 @@ class Resume extends Component {
                         <p>mywebsite.com</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                     </Cell>
-                    
-                    
+                                        
                     <Cell className="resume-right-col" col={8}>
                         <h3>Education</h3>
 
@@ -43,19 +42,17 @@ class Resume extends Component {
                             major="B.S. in Structural Engineering"
                             schoolDescription="Completed studies in advance mathematics, structural engineering, statistics, problem solving, engineering design subjects, technical writing, and etc."
                         />
-
                         <Education 
                             schoolName="Thinkful Coding Bootcamp"
                             major="Full Stack Web Development"
                             schoolDescription="Completed coding bootcamp in full stack web development with HTML, CSS, JavaScript, React.js, Redux, Node.js, jQuery, Webpack, Express, Bootstrap, Heroku, and GitHub"
                         />
-
                         <Education 
                             schoolName="Udemy"
                             major="Web Development (Continuously Learning)"
                             schoolDescription="I am constantly taking courses on Udemy to keep my skills up to date. So far, I have taken 10 courses in various Web and Blockchain development topics."
                         />
-                        <hr style={{borderTop: '3px sold #e22947'}} />
+                        <hr style={{borderTop: '1px solid grey'}} />
 
                         <h3>Experience</h3>
 
@@ -76,7 +73,6 @@ class Resume extends Component {
                                     <li>Observing community strength and involvement of new Blockchain projects by participating in all online media platforms (reddit, twitter, slack, telegram, and etc).</li>
                                 </ul>}
                         />
-
                         <Experience
                             startYear={2017}
                             endYear={2018}
@@ -92,8 +88,6 @@ class Resume extends Component {
                                 </ul>
                             }
                         />
-
-
                         <Experience
                             startYear={2012}
                             endYear={2017}
@@ -113,8 +107,7 @@ class Resume extends Component {
                                 </ul>
                             }
                         />
-
-                        <hr style={{borderTop: '3px sold #e22947'}} />
+                        <hr style={{borderTop: '1px solid grey'}} />
 
                         <h3>Skills</h3>
                         <Skills 

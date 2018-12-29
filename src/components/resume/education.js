@@ -7,7 +7,7 @@ class Education extends Component {
       <div>
        <Grid>
            <Cell col={3}>
-            <p style={{ marginTop: '10px' }}>{this.props.schoolName}</p>     
+            <p style={{ marginTop: '6px'}}>{this.props.schoolName}</p>     
            </Cell>
            
            <Cell col={9}>
