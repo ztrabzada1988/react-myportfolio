@@ -12,7 +12,7 @@ class Contact extends Component {
                              alt="avatar" 
                              style={{height: "250px"}}
                         />
-                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Hello i am zubair i like to code and love to do Blockchain and study and enjoy life and play sports. Hello i am zubair i like to code and love to do Blockchain and study and enjoy life and play sports. Hello i am zubair i like to code and love to do Blockchain and study and enjoy life and play sports</p>
+                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>I am extremely passionate about programming. I love coding in Javascript and using the React library. I also very passionate about the Blockchain technology. On my spare time I like to research on Blockchain and improve my coding skills. I love basketball and play 2-3 times a week to keep a healthy lifestyle. I am firm believer in having a balanced life. One must work on their mind and body equally to have a better lifestyle at work and home.</p>
                     </Cell>
 
                     <Cell col={6}>
