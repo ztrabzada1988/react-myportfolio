@@ -28,9 +28,9 @@ class Resume extends Component {
                         <h5>Phone</h5>
                         <p>(510) 657-8769</p>
                         <h5>Email</h5>
-                        <p>hello@gmail.com</p>
+                        <p>zubair.trabzada@gmail.com</p>
                         <h5>Web</h5>
-                        <p>mywebsite.com</p>
+                        <p>https://ztrabzada1988.github.io/react-myportfolio</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                     </Cell>
                                         
