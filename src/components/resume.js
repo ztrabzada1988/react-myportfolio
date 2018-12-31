@@ -19,14 +19,14 @@ class Resume extends Component {
                         </div>
 
                         <h2 style={{paddingTop: '2em'}}>Zubair Trabzada</h2>
-                        <h4 style={{color: 'grey'}}>Programmer</h4>
+                        <h4 style={{color: 'grey'}}>Web Developer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <p>I am extremely passionate about programming. I love coding in Javascript and using the React library. I also very passionate about the Blockchain technology. On my spare time I like to research on Blockchain and improve my coding skills. I love basketball and play 2-3 times a week to keep a healthy lifestyle. I am firm believer in having a balanced life. One must work on their mind and body equally to have a better lifestyle at work and home.</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <h5>Address</h5>
-                        <p> 1 Hacker Way, Menlo Park, CA 95050</p>
+                        <p> 2361 Sutter Avenue, CA 95050</p>
                         <h5>Phone</h5>
-                        <p>(510) 657-8769</p>
+                        <p>(510) 709-6913</p>
                         <h5>Email</h5>
                         <p>zubair.trabzada@gmail.com</p>
                         <h5>Web</h5>
@@ -126,7 +126,6 @@ class Resume extends Component {
                             skill="Ethereum/Solidity"
                             progress={25}
                         />
-
                     </Cell>    
                 </Grid>    
             </div>
