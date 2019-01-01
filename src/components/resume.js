@@ -31,7 +31,7 @@ class Resume extends Component {
                         <p>zubair.trabzada@gmail.com</p>
                         <h5>Web</h5>
                         <p>https://ztrabzada1988.github.io/react-myportfolio</p>
-                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                        <hr style={{borderTop: '3px solid white', width: '50%'}}/>
                     </Cell>
                                         
                     <Cell className="resume-right-col" col={8}>
