@@ -144,19 +144,6 @@ class Projects extends Component {
             return (
                 <div className="project-cards">
                     <div className="projects-grid">
-                        
-                        {/* Bitypes*/}
-                        <Card shadow={5} style={{minWidth: '450', marginLeft: '10px', marginRight: '10px', borderRadius: '10px'}}>
-                        <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://today.ucf.edu/files/2018/08/iStock-892082986.jpg")', backgroundSize: 'cover'}}></CardTitle>
-                        <CardText style={{ color: '#222222' }}>
-                            <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Lyric Search</h6>
-                            currently under construction
-                        </CardText>
-                        <CardActions border>
-                            <Button colored><a href="https://" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Website</a></Button>
-                        </CardActions>
-                        </Card>
-
                         {/* Bitypes*/}
                         <Card shadow={5} style={{minWidth: '450', marginLeft: '10px', marginRight: '10px', borderRadius: '10px'}}>
                         <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://today.ucf.edu/files/2018/08/iStock-892082986.jpg")', backgroundSize: 'cover'}}></CardTitle>
