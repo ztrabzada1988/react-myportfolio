@@ -12,6 +12,19 @@ class Projects extends Component {
             return (
                 <div>
                     <div className="projects-grid" style= {{ marginTop: '30px', float: 'left' }}>
+                        
+                        {/* Bitypes.com */}
+                        <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
+                            <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://today.ucf.edu/files/2018/08/iStock-892082986.jpg")', backgroundSize: 'cover'}}></CardTitle>
+                            <CardText style={{ color: '#222222' }}>
+                                <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Bitypes.com</h6>
+                                This multi-page, fully functional website is built completely with WordPress. This startup provides consulting services in the Cryptocurrency payment industry.   
+                            </CardText>
+                            <CardActions border>
+                                <Button colored><a href="https://bitypes.com" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Website</a></Button>
+                            </CardActions>
+                        </Card>
+                        
                         {/* My Portfolio */}
                         <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSi-blSQwnpwJ9ODkRyfjs3QQYdekT2GtNs9uMwVnypzvK56MF9g")', backgroundSize: 'cover'}}></CardTitle>
@@ -25,16 +38,16 @@ class Projects extends Component {
                             </CardActions>
                         </Card>
                     
-                        {/* YouTube API App */}
+                        {/* Photo Finder */}
                         <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
-                            <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://i.pinimg.com/originals/00/6f/fd/006ffd872df01f4e422965806dbc6a5d.png")', backgroundSize: 'cover'}}></CardTitle>
+                            <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://www.imore.com/sites/imore.com/files/styles/xlarge/public/field/image/2017/04/slow-shutter-speed-hero-01.jpg?itok=HiXaCFkW")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
-                                <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>YouTube API Project</h6>
-                                A faster YouTube app with instant search. This YouTube app is built with React JS. YouTube's api is used to retrieve all the videos. HTML and CSS used for simple styling.
+                                <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Image Finder App</h6>
+                                Built with React JS (Material UI), this app uses PixaBay's API to search for stunning photos. User can select photos per page shown from a drop down menu. HTML + CSS for styling.
                             </CardText>
                             <CardActions border>
-                                <Button colored><a href="https://github.com/ztrabzada1988/youtube-app" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
-                                <Button colored><a href="https://ztrabzada1988.github.io/youtube-app" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
+                                <Button colored><a href="https://github.com/ztrabzada1988/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
+                                <Button colored><a href="https://ztrabzada1988.github.io/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
                             </CardActions>
                         </Card>
 
@@ -49,23 +62,24 @@ class Projects extends Component {
                                 <Button colored><a href="https://github.com/ztrabzada1988/reminderApp" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
                                 <Button colored><a href="https://ztrabzada1988.github.io/reminderApp" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
                             </CardActions>
-                        </Card>
-
-                        {/* Photo Finder */}
-                        <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
-                            <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://www.imore.com/sites/imore.com/files/styles/xlarge/public/field/image/2017/04/slow-shutter-speed-hero-01.jpg?itok=HiXaCFkW")', backgroundSize: 'cover'}}></CardTitle>
-                            <CardText style={{ color: '#222222' }}>
-                                <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Image Finder App</h6>
-                                Built with React JS (Material UI), this app uses PixaBay's API to search for stunning photos. User can select photos per page shown from a drop down menu. HTML + CSS for styling.
-                            </CardText>
-                            <CardActions border>
-                                <Button colored><a href="https://github.com/ztrabzada1988/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
-                                <Button colored><a href="https://ztrabzada1988.github.io/photo-search" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
-                            </CardActions>
-                        </Card>
+                        </Card>   
                     </div>
 
                     <div className="projects-grid" style= {{ marginTop: '30px', float: 'left' }}>
+                        
+                        {/* YouTube API App */}
+                        <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
+                            <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://i.pinimg.com/originals/00/6f/fd/006ffd872df01f4e422965806dbc6a5d.png")', backgroundSize: 'cover'}}></CardTitle>
+                            <CardText style={{ color: '#222222' }}>
+                                <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>YouTube API Project</h6>
+                                A faster YouTube app with instant search. This YouTube app is built with React JS. YouTube's api is used to retrieve all the videos. HTML and CSS used for simple styling.
+                            </CardText>
+                            <CardActions border>
+                                <Button colored><a href="https://github.com/ztrabzada1988/youtube-app" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
+                                <Button colored><a href="https://ztrabzada1988.github.io/youtube-app" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
+                            </CardActions>
+                        </Card>
+                        
                         {/* Ethereum Kickstarter */}
                         <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("http://www.trbimg.com/img-58643812/turbine/ct-equity-crowdfunding-2016-predictions-bsi-20161229")', backgroundSize: 'cover'}}></CardTitle>
@@ -90,18 +104,6 @@ class Projects extends Component {
                                 <Button colored><a href="https://github.com/ztrabzada1988/ethereum-lottery-app-react/" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
                                 <Button colored><a href="https://ztrabzada1988.github.io/ethereum-lottery-app-react" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
                             </CardActions>
-                        </Card>
-
-                        {/* Bitypes.com */}
-                        <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
-                        <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("https://today.ucf.edu/files/2018/08/iStock-892082986.jpg")', backgroundSize: 'cover'}}></CardTitle>
-                        <CardText style={{ color: '#222222' }}>
-                            <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>Bitypes.com</h6>
-                            This multi-page, fully functional website is built completely with WordPress. This startup provides consulting services in the Cryptocurrency payment industry.   
-                        </CardText>
-                        <CardActions border>
-                            <Button colored><a href="https://bitypes.com" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>Website</a></Button>
-                        </CardActions>
                         </Card>
                     </div>
 
