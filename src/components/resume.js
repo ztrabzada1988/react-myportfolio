@@ -34,26 +34,7 @@ class Resume extends Component {
                         <hr style={{borderTop: '3px solid white', width: '50%'}}/>
                     </Cell>
                                         
-                    <Cell className="resume-right-col" col={8}>
-                        <h3>Education</h3>
-
-                        <Education 
-                            schoolName="University at Buffalo"
-                            major="B.S. in Structural Engineering"
-                            schoolDescription="Completed studies in advance mathematics, structural engineering, statistics, problem solving, engineering design subjects, technical writing, and etc."
-                        />
-                        <Education 
-                            schoolName="Thinkful Coding Bootcamp"
-                            major="Full Stack Web Development"
-                            schoolDescription="Completed coding bootcamp in full stack web development with HTML, CSS, JavaScript, React.js, Redux, Node.js, jQuery, Webpack, Express, Bootstrap, Heroku, and GitHub"
-                        />
-                        <Education 
-                            schoolName="Udemy"
-                            major="Web Development (Continuously Learning)"
-                            schoolDescription="I am constantly taking courses on Udemy to keep my skills up to date. So far, I have taken 10 courses in various Web and Blockchain development topics."
-                        />
-                        <hr style={{borderTop: '1px solid grey'}} />
-
+                    <Cell className="resume-right-col" col={8}>                        
                         <h3>Experience</h3>
 
                         <Experience
@@ -106,6 +87,25 @@ class Resume extends Component {
                                     <li>Overall management (reports, calculation, meetings, and other tasks) of company owned and privately contracted projects related to the engineering department.</li>
                                 </ul>
                             }
+                        />
+                        <hr style={{borderTop: '1px solid grey'}} />
+
+                        <h3>Education</h3>
+
+                        <Education 
+                            schoolName="University at Buffalo"
+                            major="B.S. in Structural Engineering"
+                            schoolDescription="Completed studies in advance mathematics, structural engineering, statistics, problem solving, engineering design subjects, technical writing, and etc."
+                        />
+                        <Education 
+                            schoolName="Thinkful Coding Bootcamp"
+                            major="Full Stack Web Development"
+                            schoolDescription="Completed coding bootcamp in full stack web development with HTML, CSS, JavaScript, React.js, Redux, Node.js, jQuery, Webpack, Express, Bootstrap, Heroku, and GitHub"
+                        />
+                        <Education 
+                            schoolName="Udemy"
+                            major="Web Development (Continuously Learning)"
+                            schoolDescription="I am constantly taking courses on Udemy to keep my skills up to date. So far, I have taken 10 courses in various Web and Blockchain development topics."
                         />
                         <hr style={{borderTop: '1px solid grey'}} />
 
