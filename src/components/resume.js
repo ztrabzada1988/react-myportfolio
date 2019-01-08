@@ -30,7 +30,7 @@ class Resume extends Component {
                         <h5>Email</h5>
                         <p>zubair.trabzada@gmail.com</p>
                         <h5>Web</h5>
-                        <p>https://ztrabzada1988.github.io/react-myportfolio</p>
+                        <p>ztrabzada.cf</p>
                         <hr style={{borderTop: '3px solid white', width: '50%'}}/>
                     </Cell>
                                         
