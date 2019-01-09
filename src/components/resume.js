@@ -47,7 +47,8 @@ class Resume extends Component {
                                     <li>Provide user research data and be the voice of customers to the company</li>
                                     <li>Explain complex Blockchain and Cryptocurrency topics to non-technical customers.</li>
                                     <li>Constantly research Blockchain and Cryptocurrency regulations to provide the most</li>
-                                    <li>updated information to the founders for better product delivery.</li>
+                                    <li>Updated information to the founders for better product delivery.</li>
+                                    <li>Familiarity with agile development</li>
                                     <li>Study Cryptocurrency markets and provide user behavior report to recommend future business opportunities for the company.</li>
                                     <li>Provide weekly reports on Cryptocurrency market liquidity on different exchanges(mainly Coinbase, Binance, Bittrex, Poloniex).</li>
                                     <li>Attend Blockchain meetups and conferences in the San Francisco Bay Area to study overall Blockchain community interest.</li>
