@@ -37,7 +37,7 @@ class Contact extends Component {
 
                                 <ListItem>
                                     <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton', color: 'white' }}>
-                                        <i className="fa fa-skype" aria-hidden="true" />
+                                        <i className="fa fa-globe" aria-hidden="true" />
                                         Website: ztrabzada.cf
                                     </ListItemContent>
                                 </ListItem>

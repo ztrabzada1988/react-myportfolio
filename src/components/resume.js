@@ -42,6 +42,7 @@ class Resume extends Component {
                             endYear={2018}
                             jobName="Technical Project Manager & Web Developer (Co-Founder)"
                             jobDescription={<ul>
+                                    <li>Currently building the front end using React of a crypto-payment application</li>
                                     <li>Built and launched the entire Bitypes.com website from start to finish. Maintain website and report user analytics to the founders</li>
                                     <li>Aid in marketing company’s products and services to potential customers.</li>
                                     <li>Provide user research data and be the voice of customers to the company</li>
