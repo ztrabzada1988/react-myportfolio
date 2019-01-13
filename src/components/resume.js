@@ -21,10 +21,10 @@ class Resume extends Component {
                         <h2 style={{paddingTop: '2em'}}>Zubair Trabzada</h2>
                         <h4 style={{color: 'grey'}}>Web Developer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                        <p>I am extremely passionate about programming. I love coding in Javascript and using the React library. I also very passionate about the Blockchain technology. On my spare time I like to research on Blockchain and improve my coding skills. I love basketball and play 2-3 times a week to keep a healthy lifestyle. I am firm believer in having a balanced life. One must work on their mind and body equally to have a better lifestyle at work and home.</p>
+                        <p>I am extremely passionate about programming. I have an entrepreneurial spirit. I love coding in Javascript and using the React JS library. I am also very passionate about the Blockchain technology. In my spare time I like to research on Blockchain technology and improve my coding skills. I love basketball and play 2-3 times a week to keep a healthy lifestyle. I am a firm believer in having a balanced lifestyle. One must work on their mind and body equally to be happy at work and home.</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <h5>Address</h5>
-                        <p> 2361 Sutter Avenue, CA 95050</p>
+                        <p> 2361 Sutter Avenue, Santa Clara, CA 95050</p>
                         <h5>Phone</h5>
                         <p>(510) 709-6913</p>
                         <h5>Email</h5>
@@ -38,11 +38,11 @@ class Resume extends Component {
                         <h3>Experience</h3>
 
                         <Experience
-                            startYear={2017}
-                            endYear={2018}
+                            startYear={2018}
+                            endYear={2019}
                             jobName="Technical Project Manager & Web Developer (Co-Founder)"
                             jobDescription={<ul>
-                                    <li>Currently building the front end using React of a crypto-payment application</li>
+                                    <li>Work on building the front end of a crypto-payment application using React JS. I make sure the front of the application works smoothly with Web3, Solidity and Metamask</li>
                                     <li>Built and launched the entire Bitypes.com website from start to finish. Maintain website and report user analytics to the founders</li>
                                     <li>Aid in marketing company’s products and services to potential customers.</li>
                                     <li>Provide user research data and be the voice of customers to the company</li>
