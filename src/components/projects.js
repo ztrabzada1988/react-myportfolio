@@ -140,6 +140,19 @@ class Projects extends Component {
                             </CardActions>
                         </Card>
 
+                        {/* Ethereum Lottery */}
+                        <Card shadow={5} style={{minWidth: '450', margin: '10px', borderRadius: '10px'}}>
+                            <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("")', backgroundSize: 'cover'}}></CardTitle>
+                            <CardText style={{ color: '#222222' }}>
+                                <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>ZTcoin App</h6>
+                                under construction.
+                            </CardText>
+                            <CardActions border>
+                                <Button colored><a href="https://github.com/ztrabzada1988/ethereum-lottery-app-react/" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
+                                <Button colored><a href="https://ztrabzada1988.github.io/ethereum-lottery-app-react" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
+                            </CardActions>
+                        </Card>
+
                 </div>
             );
         } else if(this.state.activeTab === 2) {
