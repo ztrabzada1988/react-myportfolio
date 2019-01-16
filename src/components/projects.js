@@ -148,8 +148,8 @@ class Projects extends Component {
                                 under construction.
                             </CardText>
                             <CardActions border>
-                                <Button colored><a href="https://github.com/ztrabzada1988/ethereum-lottery-app-react/" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
-                                <Button colored><a href="https://ztrabzada1988.github.io/ethereum-lottery-app-react" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
+                                <Button colored><a href="" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
+                                <Button colored><a href="" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>LiveDemo</a></Button>
                             </CardActions>
                         </Card>
 
