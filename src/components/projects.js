@@ -145,7 +145,7 @@ class Projects extends Component {
                             <CardTitle style={{color: 'rgb(88, 235, 149)', height: '220px', backgroundImage: 'url("")', backgroundSize: 'cover'}}></CardTitle>
                             <CardText style={{ color: '#222222' }}>
                                 <h6 style={{ margin: '0px', fontWeight: 'bold', paddingBottom: '8px' }}>ZTcoin App</h6>
-                                under construction.
+                                under construction. crypto payment app that converts crypto to currency automatically on transaction
                             </CardText>
                             <CardActions border>
                                 <Button colored><a href="" target="blank" style={{ textDecoration: 'none', color: 'blue' }}>GitHub</a></Button>
