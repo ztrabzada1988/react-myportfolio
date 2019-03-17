@@ -14,7 +14,7 @@ class LandingPage extends Component {
             />
 
             <div className="banner-text">
-              <h1>Sales/Solutions Engineer & Full Stack Developer</h1>
+              <h1>Sales Engineer & Full Stack Developer</h1>
 
               <hr />
 
@@ -34,7 +34,7 @@ class LandingPage extends Component {
 
                 {/* GitHub */}
                 <a
-                  href="https://github.com/ztrabzada1988?tab=overview&from=2017-12-01&to=2017-12-31"
+                  href="https://github.com/ztrabzada1988"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
