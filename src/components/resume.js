@@ -34,7 +34,7 @@ class Resume extends Component {
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
-            <p> 2361 Sutter Avenue, Santa Clara, CA 95050</p>
+            <p>2361 Sutter Avenue, Santa Clara, CA 95050</p>
             <h5>Phone</h5>
             <p>(510) 709-6913</p>
             <h5>Email</h5>
@@ -50,7 +50,7 @@ class Resume extends Component {
             <Experience
               startYear={2018}
               endYear={2019}
-              jobName="Technical Project Manager & Web Developer (Co-Founder)"
+              jobName="Sales Engineer & Web Developer"
               jobDescription={
                 <div>
                   <p>
@@ -64,56 +64,54 @@ class Resume extends Component {
                   </p>
                   <ul>
                     <li>
-                      Work on building the front end of a crypto-payment
-                      application using React JS. I make sure the front of the
-                      application works smoothly with Web3, Solidity and
-                      Metamask
+                      Demonstrated the application to prospects, tailored to
+                      their company needs
                     </li>
                     <li>
-                      Built and launched the entire Bitypes.com website from
-                      start to finish. Maintain website and report user
-                      analytics to the founders
+                      Assisted account managers to determine best fit of
+                      software options for prospects
                     </li>
                     <li>
-                      Aid in marketing company’s products and services to
+                      Trained customers on advanced features through screen
+                      share apps, in person and via phone
+                    </li>
+                    <li>
+                      Collected, analyzed and reported prospect comments on
+                      application design and user interface to product manager
+                    </li>
+
+                    <li>
+                      Aided in marketing company’s products and services to
                       potential customers.
                     </li>
                     <li>
-                      Provide user research data and be the voice of customers
-                      to the company
+                      Provided user research data and be the voice of customers
+                      to the company.
                     </li>
                     <li>
-                      Explain complex Blockchain and Cryptocurrency topics to
+                      Explained complex Blockchain and Cryptocurrency topics to
                       non-technical customers.
                     </li>
                     <li>
-                      Constantly research Blockchain and Cryptocurrency
-                      regulations to provide the most
+                      Constantly researched Blockchain and Cryptocurrency
+                      technology to provide the most Updated information to the
+                      founders for better product delivery.
                     </li>
                     <li>
-                      Updated information to the founders for better product
-                      delivery.
-                    </li>
-                    <li>Familiarity with agile development</li>
-                    <li>
-                      Study Cryptocurrency markets and provide user behavior
-                      report to recommend future business opportunities for the
-                      company.
+                      Attended Blockchain meetups and conferences in the San
+                      Francisco Bay Area to build relationships with potential
+                      clients
                     </li>
                     <li>
-                      Provide weekly reports on Cryptocurrency market liquidity
-                      on different exchanges(mainly Coinbase, Binance, Bittrex,
-                      Poloniex).
+                      Aid engineers in building the front end of a
+                      crypto-payment application using React JS to make sure the
+                      front end of the application works smoothly with Web3,
+                      Solidity and Metamask.
                     </li>
                     <li>
-                      Attend Blockchain meetups and conferences in the San
-                      Francisco Bay Area to study overall Blockchain community
-                      interest.
-                    </li>
-                    <li>
-                      Observing community strength and involvement of new
-                      Blockchain projects by participating in all online media
-                      platforms (reddit, twitter, slack, telegram, and etc).
+                      Built, designed, and launched the entire Bitypes.com
+                      website from start to finish. Maintain website and report
+                      user analytics to the founders
                     </li>
                   </ul>
                 </div>
@@ -122,36 +120,43 @@ class Resume extends Component {
             <Experience
               startYear={2017}
               endYear={2018}
-              jobName="Cryptocurrency/Blockchain Researcher, Writer, Investor (Freelance Work/Personal Projects)"
+              jobName="Cryptocurrency Marketing Consultant (Freelance)"
               jobDescription={
                 <ul>
                   <li>
-                    Passionately researching Blockchain projects and new
-                    Cryptocurrencies to gain more knowledge and invest
-                    appropriately.
+                    Did one-on-one marketing for ICOs and Cryptocurrencies
+                    during in person meetups in the San Francisco Bay Area.
                   </li>
                   <li>
-                    Attending meetups in the San Francisco Bay Area to meet
+                    Assisted in product demos for new startups in the Blockchain
+                    industry.
+                  </li>
+                  <li>
+                    Assisted in product demos for new startups in the Blockchain
+                    industry.
+                  </li>
+                  <li>
+                    Researched Blockchain projects and new Cryptocurrencies to
+                    gain more knowledge and invest appropriately.
+                  </li>
+                  <li>
+                    Attended meetups in the San Francisco Bay Area to meet
                     founding members of new Blockchain companies and developers.
                   </li>
                   <li>
-                    Researching and writing (medium.com) articles on Blockchain,
-                    cryptography, and Cryptocurrencies.
+                    Wrote (medium.com) articles on Blockchain, Cryptography, and
+                    Cryptocurrencies.
                   </li>
-                  <li>
-                    Doing one-on-one marketing for ICOs and other
-                    Cryptocurrencies online (Reddit.com, Discord, Telegram) and
-                    during evening meetups in the San Francisco Bay Area.
-                  </li>
+
                   <li>
                     Thoroughly evaluating white papers and GitHub code of new
                     Blockchain projects before investing.
                   </li>
                   <li>
-                    Investigating technical and marketing team members (LinkedIn
+                    Investigated technical and marketing team members (LinkedIn
                     profiles, meeting one-on- one during meetups if possible,
                     looking at education background, and etc.) of new Blockchain
-                    project before investing.
+                    project before investing or providing marketing support.
                   </li>
                 </ul>
               }
@@ -163,14 +168,23 @@ class Resume extends Component {
               jobDescription={
                 <ul>
                   <li>
-                    Design and implementation of various engineering projects
+                    Assisted in business development of company's services
                   </li>
                   <li>
-                    Overseeing projects from start to finish (design,
-                    calculations, budgeting amd prioritizing tasks, and etc.)
+                    Met with clients to explain company's consulting services
+                    and solutions
                   </li>
                   <li>
-                    Responding to information requests from onsite contractors
+                    Tailored companies consulting services to meet unique
+                    customer solutions
+                  </li>
+                  <li>Designed and implemented various engineering projects</li>
+                  <li>
+                    Oversaw projects from start to finish (design, calculations,
+                    budgeting amd prioritizing tasks, and etc.)
+                  </li>
+                  <li>
+                    Responded to information requests from onsite contractors
                     regarding design and calculations of ongoing projects
                   </li>
                   <li>
@@ -179,24 +193,12 @@ class Resume extends Component {
                   </li>
                   <li>Training new engineers on daily tasks.</li>
                   <li>
-                    Prioritizing capital improvement projects and managing
-                    contractors from start to finish.
-                  </li>
-                  <li>
-                    Reviewing calculations and plans of contracted engineers.
-                  </li>
-                  <li>
                     Handling daily communications between public and staff for
                     the department.
                   </li>
                   <li>
                     Incorporating new software to make routine tasks more
                     efficient.
-                  </li>
-                  <li>
-                    Overall management (reports, calculation, meetings, and
-                    other tasks) of company owned and privately contracted
-                    projects related to the engineering department.
                   </li>
                 </ul>
               }
