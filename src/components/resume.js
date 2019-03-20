@@ -152,17 +152,11 @@ class Resume extends Component {
                     Thoroughly evaluating white papers and GitHub code of new
                     Blockchain projects before investing.
                   </li>
-                  <li>
-                    Investigated technical and marketing team members (LinkedIn
-                    profiles, meeting one-on- one during meetups if possible,
-                    looking at education background, and etc.) of new Blockchain
-                    project before investing or providing marketing support.
-                  </li>
                 </ul>
               }
             />
             <Experience
-              startYear={2012}
+              startYear={2013}
               endYear={2017}
               jobName="Project Engineer at C&S Engineers Inc & Langan Engineering Inc."
               jobDescription={
@@ -199,6 +193,32 @@ class Resume extends Component {
                   <li>
                     Incorporating new software to make routine tasks more
                     efficient.
+                  </li>
+                </ul>
+              }
+            />
+
+            <Experience
+              startYear={2012}
+              endYear={2013}
+              jobName="Sales Engineer at Buffalo Wire Works"
+              jobDescription={
+                <ul>
+                  <li>
+                    Assisted in business development of company's services
+                  </li>
+                  <li>
+                    Met with clients to explain company's consulting services
+                    and solutions
+                  </li>
+                  <li>
+                    Tailored companies consulting services to meet unique
+                    customer solutions
+                  </li>
+                  <li>Designed and implemented various engineering projects</li>
+                  <li>
+                    Oversaw projects from start to finish (design, calculations,
+                    budgeting amd prioritizing tasks, and etc.)
                   </li>
                 </ul>
               }
