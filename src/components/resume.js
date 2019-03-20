@@ -23,14 +23,14 @@ class Resume extends Component {
             <h4 style={{ color: "grey" }}>Web Developer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              I am extremely passionate about programming. I have an
-              entrepreneurial spirit. I love coding in Javascript and using the
-              React JS library. I am also very passionate about the Blockchain
-              technology. In my spare time I like to research on Blockchain
-              technology and improve my coding skills. I love basketball and
-              play 2-3 times a week to keep a healthy lifestyle. I am a firm
-              believer in having a balanced lifestyle. One must work on their
-              mind and body equally to be happy at work and home.
+              I am passionate and highly skilled sales engineer & web developer
+              with strong technical background and communication skills. I am
+              very passionate about software engineering, artificial
+              intelligence and machine learning. I have experience with
+              customer-facing roles, presentations, product demos, marketing,
+              and other in-demand skills. I have experience in full stack web
+              development programming languages such as SQL, Javascript, HTML,
+              CSS, React JS, Node JS, APIs, and etc.
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
