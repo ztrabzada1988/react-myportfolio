@@ -1,53 +1,81 @@
-import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import React, { Component } from "react";
+import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
 
 class Contact extends Component {
-    render() {
-        return (
-            <div className="contact-body">
-                <Grid className="contact-grid">
-                    <Cell col={6}>
-                        <h2>Zubair Trabzada</h2>
-                        <img src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" 
-                             alt="avatar" 
-                             style={{height: "250px"}}
-                        />
-                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>I am extremely passionate about programming. I have an entrepreneurial spirit. I love coding in Javascript and using the React JS library. I am also very passionate about the Blockchain technology. In my spare time I like to research on Blockchain technology and improve my coding skills. I love basketball and play 2-3 times a week to keep a healthy lifestyle. I am a firm believer in having a balanced lifestyle. One must work on their mind and body equally to be happy at work and home.</p>
-                    </Cell>
+  render() {
+    return (
+      <div className="contact-body">
+        <Grid className="contact-grid">
+          <Cell col={6}>
+            <h2>Zubair Trabzada</h2>
+            <img
+              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+              alt="avatar"
+              style={{ height: "250px" }}
+            />
+            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
+              I am passionate and highly skilled sales engineer & web developer
+              with strong technical background and communication skills. I am
+              very passionate about software engineering, artificial
+              intelligence and machine learning. I have experience with
+              customer-facing roles, presentations, product demos, marketing,
+              and other in-demand skills. I have experience in full stack web
+              development programming languages such as SQL, Javascript, HTML,
+              CSS, React JS, Node JS, APIs, and etc.
+            </p>
+          </Cell>
 
-                    <Cell col={6}>
-                        <h2>Contact Me</h2>
-                        <hr/>
+          <Cell col={6}>
+            <h2>Contact Me</h2>
+            <hr />
 
-                        <div className="contact-list">
-                            <List>
-                                <ListItem>
-                                    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton', color: 'white' }}>
-                                        <i className="fa fa-phone-square" aria-hidden="true" />
-                                        (510) 709-6913
-                                    </ListItemContent>
-                                </ListItem>
-                                
-                                <ListItem>
-                                    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton', color: 'white'}}>
-                                        <i className="fa fa-envelope-square" aria-hidden="true" />
-                                        zubair.trabzada@gmail.com
-                                    </ListItemContent>
-                                </ListItem>
+            <div className="contact-list">
+              <List>
+                <ListItem>
+                  <ListItemContent
+                    style={{
+                      fontSize: "25px",
+                      fontFamily: "Anton",
+                      color: "white"
+                    }}
+                  >
+                    <i className="fa fa-phone-square" aria-hidden="true" />
+                    (510) 709-6913
+                  </ListItemContent>
+                </ListItem>
 
-                                <ListItem>
-                                    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton', color: 'white' }}>
-                                        <i className="fa fa-globe" aria-hidden="true" />
-                                        Website: ztrabzada.cf
-                                    </ListItemContent>
-                                </ListItem>
-                            </List>
-                        </div>
-                    </Cell>
-                </Grid>
+                <ListItem>
+                  <ListItemContent
+                    style={{
+                      fontSize: "25px",
+                      fontFamily: "Anton",
+                      color: "white"
+                    }}
+                  >
+                    <i className="fa fa-envelope-square" aria-hidden="true" />
+                    zubair.trabzada@gmail.com
+                  </ListItemContent>
+                </ListItem>
+
+                <ListItem>
+                  <ListItemContent
+                    style={{
+                      fontSize: "25px",
+                      fontFamily: "Anton",
+                      color: "white"
+                    }}
+                  >
+                    <i className="fa fa-globe" aria-hidden="true" />
+                    Website: ztrabzada.cf
+                  </ListItemContent>
+                </ListItem>
+              </List>
             </div>
-        )
-    }
+          </Cell>
+        </Grid>
+      </div>
+    );
+  }
 }
 
 export default Contact;
