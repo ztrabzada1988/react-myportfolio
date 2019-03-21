@@ -14,14 +14,14 @@ class Contact extends Component {
               style={{ height: "250px" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              I am passionate and highly skilled sales engineer & web developer
-              with strong technical background and communication skills. I am
-              very passionate about software engineering, artificial
-              intelligence and machine learning. I have experience with
-              customer-facing roles, presentations, product demos, marketing,
-              and other in-demand skills. I have experience in full stack web
-              development programming languages such as SQL, Javascript, HTML,
-              CSS, React JS, Node JS, APIs, and etc.
+              I am a passionate and highly skilled sales engineer & web
+              developer with strong technical background and communication
+              skills. I am very passionate about software engineering,
+              artificial intelligence and machine learning. I have experience
+              with customer-facing roles, presentations, product demos,
+              marketing, and other in-demand skills. I have experience in full
+              stack web development programming languages such as SQL,
+              Javascript, HTML, CSS, React JS, Node JS, APIs, and etc.
             </p>
           </Cell>
 

@@ -23,14 +23,14 @@ class Resume extends Component {
             <h4 style={{ color: "grey" }}>Web Developer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              I am passionate and highly skilled sales engineer & web developer
-              with strong technical background and communication skills. I am
-              very passionate about software engineering, artificial
-              intelligence and machine learning. I have experience with
-              customer-facing roles, presentations, product demos, marketing,
-              and other in-demand skills. I have experience in full stack web
-              development programming languages such as SQL, Javascript, HTML,
-              CSS, React JS, Node JS, APIs, and etc.
+              I am a passionate and highly skilled sales engineer & web
+              developer with strong technical background and communication
+              skills. I am very passionate about software engineering,
+              artificial intelligence and machine learning. I have experience
+              with customer-facing roles, presentations, product demos,
+              marketing, and other in-demand skills. I have experience in full
+              stack web development programming languages such as SQL,
+              Javascript, HTML, CSS, React JS, Node JS, APIs, and etc.
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
@@ -58,9 +58,7 @@ class Resume extends Component {
                     requires the ability to communicate with a variety of
                     people, both technical and non-technical, sometimes on the
                     same call. Written communications consist of anything from
-                    high-level overviews to step-by-step instructions. I was
-                    instrumental in sales, with 90% of those I am involved with
-                    closing.
+                    high-level overviews to step-by-step instructions.
                   </p>
                   <ul>
                     <li>
@@ -103,7 +101,7 @@ class Resume extends Component {
                       clients
                     </li>
                     <li>
-                      Aid engineers in building the front end of a
+                      Aided engineers in building the front end of a
                       crypto-payment application using React JS to make sure the
                       front end of the application works smoothly with Web3,
                       Solidity and Metamask.
@@ -124,7 +122,7 @@ class Resume extends Component {
               jobDescription={
                 <ul>
                   <li>
-                    Did one-on-one marketing for ICOs and Cryptocurrencies
+                    Performed one-on-one marketing for ICOs and Cryptocurrencies
                     during in person meetups in the San Francisco Bay Area.
                   </li>
                   <li>
@@ -146,11 +144,6 @@ class Resume extends Component {
                   <li>
                     Wrote (medium.com) articles on Blockchain, Cryptography, and
                     Cryptocurrencies.
-                  </li>
-
-                  <li>
-                    Thoroughly evaluating white papers and GitHub code of new
-                    Blockchain projects before investing.
                   </li>
                 </ul>
               }
@@ -182,16 +175,11 @@ class Resume extends Component {
                     regarding design and calculations of ongoing projects
                   </li>
                   <li>
-                    Solving daily problems faced on site and in the office to
-                    make sure projects completes on time and budget
-                  </li>
-                  <li>Training new engineers on daily tasks.</li>
-                  <li>
-                    Handling daily communications between public and staff for
-                    the department.
+                    Trained new engineers during on-boarding process and on
+                    daily tasks.
                   </li>
                   <li>
-                    Incorporating new software to make routine tasks more
+                    Incorporated new software to make routine tasks more
                     efficient.
                   </li>
                 </ul>
@@ -205,20 +193,16 @@ class Resume extends Component {
               jobDescription={
                 <ul>
                   <li>
-                    Assisted in business development of company's services
+                    Advised customers via phone and in-person on company
+                    products that best fit their needs.
                   </li>
                   <li>
-                    Met with clients to explain company's consulting services
-                    and solutions
+                    Explained and presented functionality of company products
+                    for client solutions.
                   </li>
                   <li>
-                    Tailored companies consulting services to meet unique
-                    customer solutions
-                  </li>
-                  <li>Designed and implemented various engineering projects</li>
-                  <li>
-                    Oversaw projects from start to finish (design, calculations,
-                    budgeting amd prioritizing tasks, and etc.)
+                    Visited customers on site to examine equipment and customize
+                    company products.
                   </li>
                 </ul>
               }
@@ -245,10 +229,12 @@ class Resume extends Component {
             <hr style={{ borderTop: "1px solid grey" }} />
 
             <h3>Skills</h3>
-            <Skills skill="Javascript" progress={90} />
-            <Skills skill="HTML/CSS" progress={80} />
+            <Skills skill="Sales Engineering" progress={95} />
+            <Skills skill="HTML/CSS" progress={90} />
             <Skills skill="React" progress={80} />
-            <Skills skill="Ethereum/Solidity" progress={25} />
+            <Skills skill="Javascript" progress={85} />
+            <Skills skill="Communication" progress={95} />
+            <Skills skill="Presentation" progress={85} />
           </Cell>
         </Grid>
       </div>
