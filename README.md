@@ -5,7 +5,6 @@ Back End:
 - Mongo DB
 - Express
 - Passport JS
-- JWT Auth.
 
 Front End:
 
@@ -18,6 +17,9 @@ Front End:
 
 Deployment
 
-- Heroku
-- AWS
+- Github
 - MongoDB
+
+Test
+
+- Jest
