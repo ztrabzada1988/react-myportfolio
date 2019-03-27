@@ -2,10 +2,6 @@ A Multi-Page Portfolio website.
 
 Back End:
 
-- Mongo DB
-- Express
-- Passport JS
-
 Front End:
 
 - REACT
