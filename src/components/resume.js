@@ -150,8 +150,8 @@ class Resume extends Component {
             />
             <Experience
               startYear={2013}
-              endYear={2017}
-              jobName="Project Engineer at C&S Engineers Inc & Langan Engineering Inc."
+              endYear={2019}
+              jobName="Project Engineer Consultant at C&S Engineers Inc, City of Los Altos, & Langan Engineering Inc."
               jobDescription={
                 <ul>
                   <li>

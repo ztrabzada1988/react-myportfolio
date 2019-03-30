@@ -1,7 +1,5 @@
 A Multi-Page Portfolio website.
 
-Back End:
-
 Front End:
 
 - REACT
@@ -14,8 +12,3 @@ Front End:
 Deployment
 
 - Github
-- MongoDB
-
-Test
-
-- Jest
