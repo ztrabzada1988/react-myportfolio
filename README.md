@@ -12,3 +12,4 @@ Front End:
 Deployment
 
 - Github
+- Portfolio Domain => ztrabzada.cf
