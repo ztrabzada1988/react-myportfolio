@@ -51,8 +51,9 @@ class Projects extends Component {
                 >
                   Bitypes.com
                 </h6>
-                This multi-page, fully functional website is built completely
-                with WordPress. This startup provides consulting services in the
+                This multi-page, fully functional website was fully built and
+                designed from scratch. The website was built for this
+                early-stage startup that provides consulting services in the
                 Cryptocurrency payment industry.
               </CardText>
               <CardActions border>
