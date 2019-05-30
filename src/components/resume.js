@@ -48,6 +48,82 @@ class Resume extends Component {
             <h3>Experience</h3>
 
             <Experience
+              startYear={2019}
+              jobName="Sales Engineer"
+              jobDescription={
+                <div>
+                  <p>
+                    This position has high prospect and customer exposure. It
+                    requires the ability to communicate with a variety of
+                    people, both technical and non-technical, sometimes on the
+                    same call. Written communications consist of anything from
+                    high-level overviews to step-by-step instructions.
+                  </p>
+                  <ul>
+                    <li>
+                      Demonstrated the application to prospects, tailored to
+                      their company needs
+                    </li>
+                    <li>
+                      Assisted account managers to determine best fit of
+                      software options for prospects
+                    </li>
+                    <li>
+                      Trained customers on advanced features through screen
+                      share apps, in person and via phone
+                    </li>
+                    <li>
+                      Collected, analyzed and reported prospect comments on
+                      application design and user interface to product manager
+                    </li>
+
+                    <li>
+                      Aided in marketing company’s products and services to
+                      potential customers.
+                    </li>
+                    <li>
+                      Provided user research data and be the voice of customers
+                      to the company.
+                    </li>
+                  </ul>
+                </div>
+              }
+            />
+            <Experience
+              startYear={2017}
+              endYear={2018}
+              jobName="Cryptocurrency Marketing Consultant (Freelance)"
+              jobDescription={
+                <ul>
+                  <li>
+                    Performed one-on-one marketing for ICOs and Cryptocurrencies
+                    during in person meetups in the San Francisco Bay Area.
+                  </li>
+                  <li>
+                    Assisted in product demos for new startups in the Blockchain
+                    industry.
+                  </li>
+                  <li>
+                    Assisted in product demos for new startups in the Blockchain
+                    industry.
+                  </li>
+                  <li>
+                    Researched Blockchain projects and new Cryptocurrencies to
+                    gain more knowledge and invest appropriately.
+                  </li>
+                  <li>
+                    Attended meetups in the San Francisco Bay Area to meet
+                    founding members of new Blockchain companies and developers.
+                  </li>
+                  <li>
+                    Wrote (medium.com) articles on Blockchain, Cryptography, and
+                    Cryptocurrencies.
+                  </li>
+                </ul>
+              }
+            />
+
+            <Experience
               startYear={2018}
               endYear={2019}
               jobName="Sales Engineer & Web Developer"
