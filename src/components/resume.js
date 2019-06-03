@@ -36,7 +36,7 @@ class Resume extends Component {
             <h5>Address</h5>
             <p>2361 Sutter Avenue, Santa Clara, CA 95050</p>
             <h5>Phone</h5>
-            <p>(510) 709-6913</p>
+            <p>TBD</p>
             <h5>Email</h5>
             <p>zubair.trabzada@gmail.com</p>
             <h5>Web</h5>
@@ -49,16 +49,10 @@ class Resume extends Component {
 
             <Experience
               startYear={2019}
+              endYear={Present}
               jobName="Sales Engineer"
               jobDescription={
                 <div>
-                  <p>
-                    This position has high prospect and customer exposure. It
-                    requires the ability to communicate with a variety of
-                    people, both technical and non-technical, sometimes on the
-                    same call. Written communications consist of anything from
-                    high-level overviews to step-by-step instructions.
-                  </p>
                   <ul>
                     <li>
                       Demonstrated the application to prospects, tailored to
