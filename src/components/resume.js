@@ -49,7 +49,6 @@ class Resume extends Component {
 
             <Experience
               startYear={2019}
-              endYear={Present}
               jobName="Sales Engineer"
               jobDescription={
                 <div>
